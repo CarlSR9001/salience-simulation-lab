@@ -1,0 +1,1611 @@
+{
+  "timestamp": "2025-11-04T19:53:56.351132Z",
+  "experiment_name": "protective_strain_sweep_v2",
+  "run_id": "3293f491-3188-4212-823b-fa72be05b9b4",
+  "results": [
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2526952504340176
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8326618230907415,
+        "salience_delta": -0.05078359707221597,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 1.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2523444000391836
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8315057280359561,
+        "salience_delta": -0.051134447467049926,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 2.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2517969640490478
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8297018593491126,
+        "salience_delta": -0.05168188345718577,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 5.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2508048094012373
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8264325881759705,
+        "salience_delta": -0.05267403810499627,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2526952504340176
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8326618230907415,
+        "salience_delta": -0.05078359707221597,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 1.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2523444000391836
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8315057280359561,
+        "salience_delta": -0.051134447467049926,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 2.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2517969640490478
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8297018593491126,
+        "salience_delta": -0.05168188345718577,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 5.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2508048094012373
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8264325881759705,
+        "salience_delta": -0.05267403810499627,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2526952504340176
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8326618230907415,
+        "salience_delta": -0.05078359707221597,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 1.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2523444000391836
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8315057280359561,
+        "salience_delta": -0.051134447467049926,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 2.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2517969640490478
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8297018593491126,
+        "salience_delta": -0.05168188345718577,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 5.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2508048094012373
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8264325881759705,
+        "salience_delta": -0.05267403810499627,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2526952504340176
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8326618230907415,
+        "salience_delta": -0.05078359707221597,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 1.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2523444000391836
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8315057280359561,
+        "salience_delta": -0.051134447467049926,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 2.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2517969640490478
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8297018593491126,
+        "salience_delta": -0.05168188345718577,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "inverse_tax",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 5.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2508048094012373
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8264325881759705,
+        "salience_delta": -0.05267403810499627,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 0.3,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2598386434877311
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8562001787699354,
+        "salience_delta": -0.04364020401850244,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2675556089142252
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8816285257203289,
+        "salience_delta": -0.035923238592008355,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 0.7,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.27360511703727264
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.901562396475269,
+        "salience_delta": -0.029873730468960913,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 0.9,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.27996728414131433
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9225265168952631,
+        "salience_delta": -0.02351156336491922,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 0.3,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.26220579018245777
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8640002172707341,
+        "salience_delta": -0.041273057323775786,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2697617350773506
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8888979818331806,
+        "salience_delta": -0.03371711242888298,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 0.7,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.27554086173954956
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9079409125339118,
+        "salience_delta": -0.027937985766683993,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 0.9,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.28165806952415456
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.928097861971646,
+        "salience_delta": -0.021820777982078987,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 0.3,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2652470199787573
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8740214422137249,
+        "salience_delta": -0.038231827527476225,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.27231480381078077
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8973106562400114,
+        "salience_delta": -0.03116404369545278,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 0.7,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2777237408997306
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9151337669226719,
+        "salience_delta": -0.02575510660650293,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 0.9,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.283289390145558
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9334732633704862,
+        "salience_delta": -0.020189457360675567,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 0.3,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.26772858092772145
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.8821984897060156,
+        "salience_delta": -0.0357502665785121,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.27405897345220914
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.9030579089917622,
+        "salience_delta": -0.02941987405402441,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 0.7,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.2787647625931074
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.918564061000599,
+        "salience_delta": -0.024714084913126155,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "adaptive_strain",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 0.9,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.283663711486571
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.9347066980697706,
+        "salience_delta": -0.01981513601966256,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 0.1,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.3496877730706444
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 1.1522640735725798,
+        "salience_delta": 0.04620892556441086,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 0.2,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.4454775384016413
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 1.467903091310148,
+        "salience_delta": 0.14199869089540773,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 0.3,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.5412703036213437
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 1.7835519940486981,
+        "salience_delta": 0.2377914561151101,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.7328766437297254
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 2.414918369935723,
+        "salience_delta": 0.42939779622349183,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 0.1,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.3516803901417002
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 1.1588299910572073,
+        "salience_delta": 0.048201542635466665,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 0.2,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.4477262417208918
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 1.4753128443711234,
+        "salience_delta": 0.14424739421465826,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 0.3,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.5438011509441819
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 1.7918914461839455,
+        "salience_delta": 0.24032230343794836,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.7360293922403183
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 2.425307062711183,
+        "salience_delta": 0.4325505447340847,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 0.1,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.35455596234931086
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 1.1683053539407822,
+        "salience_delta": 0.05107711484307731,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 0.2,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.45100905303683136
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 1.486130110032026,
+        "salience_delta": 0.1475302055305978,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 0.3,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.5474220336075873
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 1.8038226983722254,
+        "salience_delta": 0.2439431861013538,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.740209833802014
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 2.4390821300545826,
+        "salience_delta": 0.43673098629578044,
+        "is_protective": true
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 0.1,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.3572576408896607
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 1.177207715876549,
+        "salience_delta": 0.05377879338342717,
+        "is_protective": true
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 0.2,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.4537675743805368
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 1.495219775972084,
+        "salience_delta": 0.15028872687430322,
+        "is_protective": true
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 0.3,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 150,
+        "final_acc": 1.0,
+        "mean_salience": 0.550187421145989
+      },
+      "metrics": {
+        "time_dilation_factor": 3.0,
+        "salience_ratio": 1.8129349892653983,
+        "salience_delta": 0.2467085736397554,
+        "is_protective": true
+      }
+    },
+    {
+      "mechanism": "strain_bonus",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 150,
+        "final_acc": 1.0,
+        "mean_salience": 0.742785016845054
+      },
+      "metrics": {
+        "time_dilation_factor": 3.0,
+        "salience_ratio": 2.4475676738221335,
+        "salience_delta": 0.4393061693388205,
+        "is_protective": true
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2557383180335272
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8426891038205694,
+        "salience_delta": -0.04774052947270635,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 1.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2517432022201382
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8295247075332567,
+        "salience_delta": -0.051735645286095366,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 1.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2538977332515795
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8366241513631831,
+        "salience_delta": -0.04958111425465406,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 1.0,
+        "mechanism_strength": 2.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2538977332515795
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8366241513631831,
+        "salience_delta": -0.04958111425465406,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.25573834919218214
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8426892064921565,
+        "salience_delta": -0.047740498314051416,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 1.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.251465590047573
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8286099413976713,
+        "salience_delta": -0.05201325745866053,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 1.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.255688413698976
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8425246629214382,
+        "salience_delta": -0.04779043380725756,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 5.0,
+        "mechanism_strength": 2.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.255688413698976
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8425246629214382,
+        "salience_delta": -0.04779043380725756,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2557383735994843
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8426892869172088,
+        "salience_delta": -0.04774047390674924,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 1.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.250526560907958
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8255157252856382,
+        "salience_delta": -0.052952286598275555,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 1.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.25809587950197227
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8504575578259072,
+        "salience_delta": -0.04538296800426128,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 15.0,
+        "mechanism_strength": 2.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.25809587950197227
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8504575578259072,
+        "salience_delta": -0.04538296800426128,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.25573838663986065
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8426893298868472,
+        "salience_delta": -0.0477404608663729,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 1.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2489215007279061
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8202268552597991,
+        "salience_delta": -0.054557346778327465,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 1.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.2606251462150334
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.8587918016582031,
+        "salience_delta": -0.04285370129120014,
+        "is_protective": false
+      }
+    },
+    {
+      "mechanism": "selective_strain",
+      "params": {
+        "continuity_tax": 35.0,
+        "mechanism_strength": 2.0,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.2606251462150334
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.8587918016582031,
+        "salience_delta": -0.04285370129120014,
+        "is_protective": false
+      }
+    }
+  ],
+  "summary": {
+    "total_tested": 64,
+    "protective_count": 5
+  }
+}

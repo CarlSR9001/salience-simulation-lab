@@ -1,0 +1,969 @@
+{
+  "timestamp": "2025-11-04T19:50:21.616759Z",
+  "experiment_name": "protective_strain_sweep",
+  "run_id": "9ccdf20b-6814-42f5-955f-0dfe9aa094c1",
+  "sweep_config": {
+    "continuity_taxes": [
+      1.0,
+      5.0,
+      15.0,
+      35.0
+    ],
+    "dropouts": [
+      0.0,
+      0.2,
+      0.5
+    ],
+    "noises": [
+      0.0,
+      0.2,
+      0.55
+    ],
+    "salience_floor": 0.1,
+    "use_salience_gating": false
+  },
+  "results": [
+    {
+      "params": {
+        "continuity_tax": 1.0,
+        "dropout": 0.0,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30297152289891605,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9983283032360036,
+        "salience_delta": -0.0005073246073175053,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 1.0,
+        "dropout": 0.0,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2535392569302606,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8354429279459182,
+        "salience_delta": -0.04993959057597297,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 1.0,
+        "dropout": 0.0,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.24581490935412764,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.809990255907633,
+        "salience_delta": -0.05766393815210591,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 1.0,
+        "dropout": 0.2,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30293919806097386,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9982217889329219,
+        "salience_delta": -0.0005396494452596934,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 1.0,
+        "dropout": 0.2,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2538977332515795,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8366241513631831,
+        "salience_delta": -0.04958111425465406,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 1.0,
+        "dropout": 0.2,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2457858306987087,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8098944381738507,
+        "salience_delta": -0.05769301680752484,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 1.0,
+        "dropout": 0.5,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30268340611153155,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9973789231070358,
+        "salience_delta": -0.0007954413947020011,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 1.0,
+        "dropout": 0.5,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2547817368929797,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8395370517141114,
+        "salience_delta": -0.048697110613253825,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 1.0,
+        "dropout": 0.5,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2456796773731596,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8095446499549306,
+        "salience_delta": -0.05779917013307395,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 5.0,
+        "dropout": 0.0,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.3026251288199614,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9971868922882521,
+        "salience_delta": -0.0008537186862721535,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 5.0,
+        "dropout": 0.0,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2552414762625233,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8410519492871099,
+        "salience_delta": -0.04823737124371025,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 5.0,
+        "dropout": 0.0,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.24540899466823834,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8086527172645783,
+        "salience_delta": -0.058069852837995206,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 5.0,
+        "dropout": 0.2,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.3023845042199276,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9963940047377322,
+        "salience_delta": -0.0010943432863059765,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 5.0,
+        "dropout": 0.2,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.255688413698976,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8425246629214382,
+        "salience_delta": -0.04779043380725756,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 5.0,
+        "dropout": 0.2,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2453025008481214,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8083018070743228,
+        "salience_delta": -0.05817634665811214,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 5.0,
+        "dropout": 0.5,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.301592065299374,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9937828213651009,
+        "salience_delta": -0.0018867822068595608,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 5.0,
+        "dropout": 0.5,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.25687355343242746,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8464298436059904,
+        "salience_delta": -0.04660529407380609,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 5.0,
+        "dropout": 0.5,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.24497269851405754,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8072150679596399,
+        "salience_delta": -0.058506148992176016,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 15.0,
+        "dropout": 0.0,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.3012510133857598,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9926590135069365,
+        "salience_delta": -0.002227834120473726,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 15.0,
+        "dropout": 0.0,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2574013470840454,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8481689883798517,
+        "salience_delta": -0.04607750042218817,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 15.0,
+        "dropout": 0.0,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.24465838749187804,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8061793746163897,
+        "salience_delta": -0.05882046001435551,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 15.0,
+        "dropout": 0.2,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.3006402473796622,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9906464646551255,
+        "salience_delta": -0.0028386001265713334,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 15.0,
+        "dropout": 0.2,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.25809587950197227,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8504575578259072,
+        "salience_delta": -0.04538296800426128,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 15.0,
+        "dropout": 0.2,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.24439938219451485,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8053259204152434,
+        "salience_delta": -0.059079465311718704,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 15.0,
+        "dropout": 0.5,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.29893496875898573,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9850273625836328,
+        "salience_delta": -0.00454387874724782,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 15.0,
+        "dropout": 0.5,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2597233311013775,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8558202103230365,
+        "salience_delta": -0.04375551640485603,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 15.0,
+        "dropout": 0.5,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2437261345867011,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.8031074870273944,
+        "salience_delta": -0.059752712919532464,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 35.0,
+        "dropout": 0.0,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.2986220608630637,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 1.0,
+        "salience_ratio": 0.9839962927133823,
+        "salience_delta": -0.0048567866431698525,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 35.0,
+        "dropout": 0.0,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.2598945980313087,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.8563845558493839,
+        "salience_delta": -0.04358424947492484,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 35.0,
+        "dropout": 0.0,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.24355276337291396,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.8025362076278193,
+        "salience_delta": -0.059926084133319596,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 35.0,
+        "dropout": 0.2,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.2975294006616569,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.9803958434221534,
+        "salience_delta": -0.005949446844576656,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 35.0,
+        "dropout": 0.2,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.2606251462150334,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.8587918016582031,
+        "salience_delta": -0.04285370129120014,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 35.0,
+        "dropout": 0.2,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.24319174531786986,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.8013466088863891,
+        "salience_delta": -0.060287102188363695,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 35.0,
+        "dropout": 0.5,
+        "noise": 0.0,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.2946938635651981,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.9710524011369359,
+        "salience_delta": -0.00878498394103544,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 35.0,
+        "dropout": 0.5,
+        "noise": 0.2,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.2619732270494757,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 0.8632338932422454,
+        "salience_delta": -0.041505620456757875,
+        "is_protective": false
+      }
+    },
+    {
+      "params": {
+        "continuity_tax": 35.0,
+        "dropout": 0.5,
+        "noise": 0.55,
+        "salience_floor": 0.1,
+        "use_gating": false
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355
+      },
+      "strained": {
+        "t_converge": 150,
+        "final_acc": 1.0,
+        "mean_salience": 0.24211830282272723,
+        "gated_updates": 0
+      },
+      "metrics": {
+        "time_dilation_factor": 3.0,
+        "salience_ratio": 0.797809484292819,
+        "salience_delta": -0.061360544683506324,
+        "is_protective": false
+      }
+    }
+  ],
+  "summary": {
+    "total_tested": 36,
+    "protective_count": 0,
+    "best_salience_config": null,
+    "best_balanced_config": null
+  }
+}

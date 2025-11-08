@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-11-04T19:52:09.308270Z",
+  "experiment_name": "experiment_v_defense_mechanisms",
+  "run_id": "371a2243-5292-4809-99e1-bc7c08b92d9a",
+  "baseline": {
+    "lambda_c": 0.0,
+    "clean_acc": 0.9975,
+    "final_acc": 0.9475,
+    "acc_drop_pct": 5.000000000000004,
+    "min_salience": 0.18632192698218802,
+    "mean_salience": 0.3784152786482174,
+    "defense_energy_total": 75.84484161760768,
+    "mean_recovery_time": Infinity
+  },
+  "taxed_vulnerable": {
+    "lambda_c": 1.0,
+    "defenses": "none",
+    "clean_acc": 0.995,
+    "final_acc": 0.87,
+    "acc_drop_pct": 12.5,
+    "min_salience": 0.1729679085123887,
+    "mean_salience": 0.36956355384926115,
+    "defense_energy_total": 75.84484161760768,
+    "mean_recovery_time": Infinity
+  },
+  "defense_a": {
+    "name": "Adaptive Salience Floor",
+    "lambda_c": 1.0,
+    "clean_acc": 0.995,
+    "final_acc": 0.9625,
+    "acc_drop_pct": 3.2499999999999973,
+    "min_salience": 0.7,
+    "mean_salience": 0.7000000000000003,
+    "defense_energy_total": 75.8448416176077,
+    "mean_recovery_time": 50.0,
+    "recovery_event_count": 57
+  },
+  "defense_b": {
+    "name": "Channel Hardening",
+    "lambda_c": 1.0,
+    "clean_acc": 0.995,
+    "final_acc": 0.9175,
+    "acc_drop_pct": 7.750000000000002,
+    "min_salience": 0.1864056147639451,
+    "mean_salience": 0.37924091076966066,
+    "defense_energy_total": 75.84484161760768,
+    "mean_recovery_time": Infinity
+  },
+  "defense_c": {
+    "name": "Salience-Weighted Perturbation",
+    "lambda_c": 1.0,
+    "clean_acc": 0.995,
+    "final_acc": 0.9275,
+    "acc_drop_pct": 6.75,
+    "min_salience": 0.18649289044919684,
+    "mean_salience": 0.37745585354190514,
+    "defense_energy_total": 57.64572432879875,
+    "mean_recovery_time": Infinity
+  },
+  "comparison": {
+    "baseline_acc_drop_pct": 5.000000000000004,
+    "taxed_vulnerable_acc_drop_pct": 12.5,
+    "defense_a_acc_drop_pct": 3.2499999999999973,
+    "defense_b_acc_drop_pct": 7.750000000000002,
+    "defense_c_acc_drop_pct": 6.75,
+    "defense_a_improvement_vs_taxed_pct": 9.250000000000004,
+    "defense_b_improvement_vs_taxed_pct": 4.749999999999998,
+    "defense_c_improvement_vs_taxed_pct": 5.75,
+    "vulnerability_increase_taxed_vs_baseline_pct": 149.99999999999977
+  }
+}

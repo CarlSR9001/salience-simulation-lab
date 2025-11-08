@@ -1,0 +1,187 @@
+{
+  "timestamp": "2025-11-04T19:55:09.193824Z",
+  "experiment_name": "protective_strain_analysis",
+  "run_id": "bdc373ca-38d1-4846-90fc-b88306e4b6e8",
+  "configurations": [
+    {
+      "config_name": "Original (Destructive)",
+      "params": {
+        "continuity_tax": 35.0,
+        "strength": 0.0,
+        "dropout": 0.5,
+        "noise": 0.55
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355,
+        "salience_std": 0.0435073245892836,
+        "salience_range": [
+          0.2342724004790494,
+          0.3783945741643271
+        ]
+      },
+      "strained": {
+        "t_converge": 150,
+        "final_acc": 1.0,
+        "mean_salience": 0.24211830282272723,
+        "salience_std": 0.0597315215317236,
+        "salience_range": [
+          0.14768521249116093,
+          0.3404070431531716
+        ],
+        "salience_growth": 0.7340338594683478
+      },
+      "metrics": {
+        "time_dilation_factor": 3.0,
+        "salience_ratio": 0.797809484292819,
+        "salience_delta": -0.061360544683506324,
+        "is_protective": false
+      }
+    },
+    {
+      "config_name": "Protective Modest",
+      "params": {
+        "continuity_tax": 35.0,
+        "strength": 0.1,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355,
+        "salience_std": 0.0435073245892836,
+        "salience_range": [
+          0.2342724004790494,
+          0.3783945741643271
+        ]
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.3572576408896607,
+        "salience_std": 0.05489803982913914,
+        "salience_range": [
+          0.24330217846399488,
+          0.44218268065876504
+        ],
+        "salience_growth": 0.7667313723895188
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 1.177207715876549,
+        "salience_delta": 0.05377879338342717,
+        "is_protective": true
+      }
+    },
+    {
+      "config_name": "Protective Moderate",
+      "params": {
+        "continuity_tax": 35.0,
+        "strength": 0.3,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355,
+        "salience_std": 0.0435073245892836,
+        "salience_range": [
+          0.2342724004790494,
+          0.3783945741643271
+        ]
+      },
+      "strained": {
+        "t_converge": 150,
+        "final_acc": 1.0,
+        "mean_salience": 0.550187421145989,
+        "salience_std": 0.051805481997761964,
+        "salience_range": [
+          0.4381067316913845,
+          0.6288010209103659
+        ],
+        "salience_growth": 0.8463457321374305
+      },
+      "metrics": {
+        "time_dilation_factor": 3.0,
+        "salience_ratio": 1.8129349892653983,
+        "salience_delta": 0.2467085736397554,
+        "is_protective": true
+      }
+    },
+    {
+      "config_name": "Protective Strong",
+      "params": {
+        "continuity_tax": 35.0,
+        "strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355,
+        "salience_std": 0.0435073245892836,
+        "salience_range": [
+          0.2342724004790494,
+          0.3783945741643271
+        ]
+      },
+      "strained": {
+        "t_converge": 150,
+        "final_acc": 1.0,
+        "mean_salience": 0.742785016845054,
+        "salience_std": 0.04924088448006082,
+        "salience_range": [
+          0.6334660090756395,
+          0.8167349919091327
+        ],
+        "salience_growth": 0.8871736203928523
+      },
+      "metrics": {
+        "time_dilation_factor": 3.0,
+        "salience_ratio": 2.4475676738221335,
+        "salience_delta": 0.4393061693388205,
+        "is_protective": true
+      }
+    },
+    {
+      "config_name": "Balanced (\u03bb=15)",
+      "params": {
+        "continuity_tax": 15.0,
+        "strength": 0.5,
+        "dropout": 0.2,
+        "noise": 0.2
+      },
+      "baseline": {
+        "t_converge": 50,
+        "final_acc": 1.0,
+        "mean_salience": 0.30347884750623355,
+        "salience_std": 0.0435073245892836,
+        "salience_range": [
+          0.2342724004790494,
+          0.3783945741643271
+        ]
+      },
+      "strained": {
+        "t_converge": 100,
+        "final_acc": 1.0,
+        "mean_salience": 0.740209833802014,
+        "salience_std": 0.05691999089812343,
+        "salience_range": [
+          0.6264966394121201,
+          0.8304597531554314
+        ],
+        "salience_growth": 0.8773597725254729
+      },
+      "metrics": {
+        "time_dilation_factor": 2.0,
+        "salience_ratio": 2.4390821300545826,
+        "salience_delta": 0.43673098629578044,
+        "is_protective": true
+      }
+    }
+  ]
+}
