@@ -1,0 +1,136 @@
+[project]
+name = "salience-simulation-lab"
+version = "0.1.0"
+description = "Exploratory salience-weighted gravity sandbox"
+authors = [{ name = "Cascade AI" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.25",
+    "matplotlib>=3.8",
+    "tabulate>=0.9",
+    "pandas>=2.0",
+    "tqdm>=4.65"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "black>=23.0",
+    "ruff>=0.1.0",
+    "isort>=5.12",
+    "mypy>=1.7",
+    "pre-commit>=3.5"
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+python_files = "test_*.py"
+
+# =============================================================================
+# Code Formatting and Linting Tools
+# =============================================================================
+
+[tool.black]
+line-length = 120
+target-version = ['py310', 'py311', 'py312']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+  | artifacts
+  | artifacts_sparc
+)/
+'''
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+# Enable pycodestyle (E), Pyflakes (F), isort (I), and other useful rules
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # Pyflakes
+    "I",      # isort
+    "N",      # pep8-naming
+    "UP",     # pyupgrade
+    "B",      # flake8-bugbear
+    "C4",     # flake8-comprehensions
+    "SIM",    # flake8-simplify
+    "RUF",    # Ruff-specific rules
+]
+
+ignore = [
+    "E501",   # line too long (handled by black)
+    "E741",   # ambiguous variable name
+    "N803",   # argument name should be lowercase (science variables)
+    "N806",   # variable in function should be lowercase (science variables)
+]
+
+# Exclude directories
+extend-exclude = [
+    "artifacts",
+    "artifacts_sparc",
+    "build",
+    "dist",
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+]
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]  # Allow unused imports in __init__.py
+
+[tool.ruff.isort]
+known-first-party = ["csg_v4"]
+section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]
+
+[tool.isort]
+profile = "black"
+line_length = 120
+known_first_party = ["csg_v4"]
+skip_glob = ["artifacts/*", "artifacts_sparc/*", "build/*", "dist/*"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false  # Gradual typing - start lenient
+disallow_any_generics = false
+check_untyped_defs = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+strict_optional = true
+
+[[tool.mypy.overrides]]
+module = [
+    "matplotlib.*",
+    "pandas.*",
+    "tabulate.*",
+    "tqdm.*",
+]
+ignore_missing_imports = true
+
+# Exclude directories
+exclude = [
+    "^artifacts/",
+    "^artifacts_sparc/",
+    "^build/",
+    "^dist/",
+]
