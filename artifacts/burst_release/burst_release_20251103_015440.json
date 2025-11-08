@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-11-03T01:54:40.719787Z",
+    "experiment_name": "experiment_h_burst_release",
+    "run_id": "05fa141c-4ec9-4544-ba10-0f517e9dccc2",
+    "scenario": "release_only",
+    "rise_time_post": 2.0,
+    "post_release_peak_rate": 0.08152169602871906,
+    "post_release_overshoot": -0.1850661278052539,
+    "mean_salience_phase2": 0.8496113651381169,
+    "control_energy_phase1": 1.1881343757335054,
+    "control_energy_phase2": 4.05255904055348
+  },
+  {
+    "timestamp": "2025-11-03T01:54:40.719799Z",
+    "experiment_name": "experiment_h_burst_release",
+    "run_id": "05fa141c-4ec9-4544-ba10-0f517e9dccc2",
+    "scenario": "release_plus_subsidy",
+    "rise_time_post": 1.96,
+    "post_release_peak_rate": 0.537895471831562,
+    "post_release_overshoot": -0.18450690530474223,
+    "mean_salience_phase2": 0.42567562016672056,
+    "control_energy_phase1": 1.1881343757335054,
+    "control_energy_phase2": 4.054785033002255
+  }
+]

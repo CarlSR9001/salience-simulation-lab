@@ -1,0 +1,67 @@
+[
+  {
+    "timestamp": "2025-11-02T22:48:25.804605Z",
+    "experiment_name": "experiment_a_mass_sweep",
+    "run_id": "d0389825-3a52-4c32-8535-ab119920935e",
+    "rise_time_90": 2.25,
+    "peak_overshoot": -0.0325950195129906,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.13200454610620554,
+    "mean_salience": 0.8007702909362504,
+    "control_energy": 4.551397361384122,
+    "lambda_c": 0.0,
+    "m_eff": 1.0
+  },
+  {
+    "timestamp": "2025-11-02T22:48:25.804619Z",
+    "experiment_name": "experiment_a_mass_sweep",
+    "run_id": "d0389825-3a52-4c32-8535-ab119920935e",
+    "rise_time_90": 2.37,
+    "peak_overshoot": -0.03672862035808655,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.13551597334272172,
+    "mean_salience": 0.7971496176979515,
+    "control_energy": 4.529238246197907,
+    "lambda_c": 0.25,
+    "m_eff": 1.0533333333333335
+  },
+  {
+    "timestamp": "2025-11-02T22:48:25.804624Z",
+    "experiment_name": "experiment_a_mass_sweep",
+    "run_id": "d0389825-3a52-4c32-8535-ab119920935e",
+    "rise_time_90": 2.5,
+    "peak_overshoot": -0.04081439671646514,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.13885941248871456,
+    "mean_salience": 0.7939652838895963,
+    "control_energy": 4.508197825720796,
+    "lambda_c": 0.5,
+    "m_eff": 1.1111111111111112
+  },
+  {
+    "timestamp": "2025-11-02T22:48:25.804626Z",
+    "experiment_name": "experiment_a_mass_sweep",
+    "run_id": "d0389825-3a52-4c32-8535-ab119920935e",
+    "rise_time_90": 2.75,
+    "peak_overshoot": -0.04877578516419978,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.14508049668798761,
+    "mean_salience": 0.7883504727588113,
+    "control_energy": 4.469200731041901,
+    "lambda_c": 1.0,
+    "m_eff": 1.2222222222222223
+  },
+  {
+    "timestamp": "2025-11-02T22:48:25.804628Z",
+    "experiment_name": "experiment_a_mass_sweep",
+    "run_id": "d0389825-3a52-4c32-8535-ab119920935e",
+    "rise_time_90": 3.2800000000000002,
+    "peak_overshoot": -0.06361752658203246,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.1559123508180133,
+    "mean_salience": 0.779296978035169,
+    "control_energy": 4.401839608206493,
+    "lambda_c": 2.0,
+    "m_eff": 1.4577777777777778
+  }
+]

@@ -1,0 +1,1523 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-02T21:38:09.511974Z",
+    "hostname": "ROXY",
+    "entropy_seed": 3515367645211246876,
+    "temperature_placeholder": null,
+    "cpu_load": null
+  },
+  "results": [
+    {
+      "phase": 0.0,
+      "damping": 0.0,
+      "basis_index": 0,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 100.40080320963854
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.0,
+      "basis_index": 1,
+      "correlator": -1.0,
+      "p_value": 0.0,
+      "anomaly_score": 98.90598399305284
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.0,
+      "basis_index": 2,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 99.322296358038
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.049999999999999996,
+      "basis_index": 0,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 100.40080320963854
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.049999999999999996,
+      "basis_index": 1,
+      "correlator": -0.9002,
+      "p_value": 0.0,
+      "anomaly_score": 88.92538014825337
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.049999999999999996,
+      "basis_index": 2,
+      "correlator": 0.8994,
+      "p_value": 0.0,
+      "anomaly_score": 89.26206376277156
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.09999999999999999,
+      "basis_index": 0,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 100.40080320963854
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.09999999999999999,
+      "basis_index": 1,
+      "correlator": -0.7966,
+      "p_value": 0.0,
+      "anomaly_score": 78.56475331136735
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.09999999999999999,
+      "basis_index": 2,
+      "correlator": 0.8016,
+      "p_value": 0.0,
+      "anomaly_score": 79.48183764132965
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.15,
+      "basis_index": 0,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 100.40080320963854
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.15,
+      "basis_index": 1,
+      "correlator": -0.7168,
+      "p_value": 0.0,
+      "anomaly_score": 70.58427047754974
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.15,
+      "basis_index": 2,
+      "correlator": 0.7118,
+      "p_value": 0.0,
+      "anomaly_score": 70.50163001652919
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.19999999999999998,
+      "basis_index": 0,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 100.40080320963854
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.19999999999999998,
+      "basis_index": 1,
+      "correlator": -0.6036,
+      "p_value": 0.0,
+      "anomaly_score": 59.26358555539243
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.19999999999999998,
+      "basis_index": 2,
+      "correlator": 0.6036,
+      "p_value": 0.0,
+      "anomaly_score": 59.681379849453364
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.24999999999999997,
+      "basis_index": 0,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 100.40080320963854
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.24999999999999997,
+      "basis_index": 1,
+      "correlator": -0.5122,
+      "p_value": 0.0,
+      "anomaly_score": 50.12303253520534
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.24999999999999997,
+      "basis_index": 2,
+      "correlator": 0.501,
+      "p_value": 0.0,
+      "anomaly_score": 49.421142630026566
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.3,
+      "basis_index": 0,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 100.40080320963854
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.3,
+      "basis_index": 1,
+      "correlator": -0.3918,
+      "p_value": 0.0,
+      "anomaly_score": 38.08230404909456
+    },
+    {
+      "phase": 0.0,
+      "damping": 0.3,
+      "basis_index": 2,
+      "correlator": 0.3928,
+      "p_value": 0.0,
+      "anomaly_score": 38.60089246295074
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.0,
+      "basis_index": 0,
+      "correlator": 0.9154,
+      "p_value": 0.0,
+      "anomaly_score": 90.36629152023109
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.0,
+      "basis_index": 1,
+      "correlator": -0.9186,
+      "p_value": 0.0,
+      "anomaly_score": 89.79942751366696
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.0,
+      "basis_index": 2,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 99.88007191367767
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.049999999999999996,
+      "basis_index": 0,
+      "correlator": 0.9238,
+      "p_value": 0.0,
+      "anomaly_score": 91.20635000713894
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.049999999999999996,
+      "basis_index": 1,
+      "correlator": -0.8346,
+      "p_value": 0.0,
+      "anomaly_score": 81.39760983584559
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.049999999999999996,
+      "basis_index": 2,
+      "correlator": 0.899,
+      "p_value": 0.0,
+      "anomaly_score": 89.78006464166982
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.09999999999999999,
+      "basis_index": 0,
+      "correlator": 0.9244,
+      "p_value": 0.0,
+      "anomaly_score": 91.26635418477522
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.09999999999999999,
+      "basis_index": 1,
+      "correlator": -0.732,
+      "p_value": 0.0,
+      "anomaly_score": 71.13538967222091
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.09999999999999999,
+      "basis_index": 2,
+      "correlator": 0.7926,
+      "p_value": 0.0,
+      "anomaly_score": 79.14005698086154
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.15,
+      "basis_index": 0,
+      "correlator": 0.919,
+      "p_value": 0.0,
+      "anomaly_score": 90.72631658604874
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.15,
+      "basis_index": 1,
+      "correlator": -0.6524,
+      "p_value": 0.0,
+      "anomaly_score": 63.17366720609495
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.15,
+      "basis_index": 2,
+      "correlator": 0.6974,
+      "p_value": 0.0,
+      "anomaly_score": 69.62005012645415
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.19999999999999998,
+      "basis_index": 0,
+      "correlator": 0.924,
+      "p_value": 0.0,
+      "anomaly_score": 91.22635139968438
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.19999999999999998,
+      "basis_index": 1,
+      "correlator": -0.5592,
+      "p_value": 0.0,
+      "anomaly_score": 53.8516504492741
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.19999999999999998,
+      "basis_index": 2,
+      "correlator": 0.5946,
+      "p_value": 0.0,
+      "anomaly_score": 59.34004272484615
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.24999999999999997,
+      "basis_index": 0,
+      "correlator": 0.928,
+      "p_value": 0.0,
+      "anomaly_score": 91.62637925059288
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.24999999999999997,
+      "basis_index": 1,
+      "correlator": -0.4456,
+      "p_value": 0.0,
+      "anomaly_score": 42.48919225641092
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.24999999999999997,
+      "basis_index": 2,
+      "correlator": 0.509,
+      "p_value": 0.0,
+      "anomaly_score": 50.78003656163949
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.3,
+      "basis_index": 0,
+      "correlator": 0.9246,
+      "p_value": 0.0,
+      "anomaly_score": 91.28635557732065
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.3,
+      "basis_index": 1,
+      "correlator": -0.3668,
+      "p_value": 0.0,
+      "anomaly_score": 34.60748710150231
+    },
+    {
+      "phase": 0.39269908169872414,
+      "damping": 0.3,
+      "basis_index": 2,
+      "correlator": 0.391,
+      "p_value": 0.0,
+      "anomaly_score": 38.980028065630314
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.0,
+      "basis_index": 0,
+      "correlator": 0.7102,
+      "p_value": 0.0,
+      "anomaly_score": 71.8021842556681
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.0,
+      "basis_index": 1,
+      "correlator": -0.7036,
+      "p_value": 0.0,
+      "anomaly_score": 70.2800224896108
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.0,
+      "basis_index": 2,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 98.29454080399314
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.049999999999999996,
+      "basis_index": 0,
+      "correlator": 0.7142,
+      "p_value": 0.0,
+      "anomaly_score": 72.20219642422335
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.049999999999999996,
+      "basis_index": 1,
+      "correlator": -0.6398,
+      "p_value": 0.0,
+      "anomaly_score": 63.90002044800982
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.049999999999999996,
+      "basis_index": 2,
+      "correlator": 0.9036,
+      "p_value": 0.0,
+      "anomaly_score": 88.6531145387256
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.09999999999999999,
+      "basis_index": 0,
+      "correlator": 0.71,
+      "p_value": 0.0,
+      "anomaly_score": 71.78218364724033
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.09999999999999999,
+      "basis_index": 1,
+      "correlator": -0.5662,
+      "p_value": 0.0,
+      "anomaly_score": 56.54001809280869
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.09999999999999999,
+      "basis_index": 2,
+      "correlator": 0.8042,
+      "p_value": 0.0,
+      "anomaly_score": 78.7116438876095
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.15,
+      "basis_index": 0,
+      "correlator": 0.712,
+      "p_value": 0.0,
+      "anomaly_score": 71.98218973151796
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.15,
+      "basis_index": 1,
+      "correlator": -0.508,
+      "p_value": 0.0,
+      "anomaly_score": 50.72001623040779
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.15,
+      "basis_index": 2,
+      "correlator": 0.692,
+      "p_value": 0.0,
+      "anomaly_score": 67.48998385687278
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.19999999999999998,
+      "basis_index": 0,
+      "correlator": 0.7068,
+      "p_value": 0.0,
+      "anomaly_score": 71.46217391239612
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.19999999999999998,
+      "basis_index": 1,
+      "correlator": -0.4128,
+      "p_value": 0.0,
+      "anomaly_score": 41.20001318400633
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.19999999999999998,
+      "basis_index": 2,
+      "correlator": 0.5892,
+      "p_value": 0.0,
+      "anomaly_score": 57.208462901794945
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.24999999999999997,
+      "basis_index": 0,
+      "correlator": 0.7116,
+      "p_value": 0.0,
+      "anomaly_score": 71.94218851466243
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.24999999999999997,
+      "basis_index": 1,
+      "correlator": -0.35,
+      "p_value": 0.0,
+      "anomaly_score": 34.92001117440536
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.24999999999999997,
+      "basis_index": 2,
+      "correlator": 0.5084,
+      "p_value": 0.0,
+      "anomaly_score": 49.127267442939996
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.3,
+      "basis_index": 0,
+      "correlator": 0.704,
+      "p_value": 0.0,
+      "anomaly_score": 71.18216539440745
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.3,
+      "basis_index": 1,
+      "correlator": -0.2696,
+      "p_value": 0.0,
+      "anomaly_score": 26.88000860160413
+    },
+    {
+      "phase": 0.7853981633974483,
+      "damping": 0.3,
+      "basis_index": 2,
+      "correlator": 0.403,
+      "p_value": 0.0,
+      "anomaly_score": 38.58570802012674
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.0,
+      "basis_index": 0,
+      "correlator": 0.3886,
+      "p_value": 0.0,
+      "anomaly_score": 39.88207471949177
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.0,
+      "basis_index": 1,
+      "correlator": -0.3804,
+      "p_value": 0.0,
+      "anomaly_score": 38.300129454656336
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.0,
+      "basis_index": 2,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 98.72808813628376
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.049999999999999996,
+      "basis_index": 0,
+      "correlator": 0.3894,
+      "p_value": 0.0,
+      "anomaly_score": 39.962078881416524
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.049999999999999996,
+      "basis_index": 1,
+      "correlator": -0.3408,
+      "p_value": 0.0,
+      "anomaly_score": 34.34011606978847
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.049999999999999996,
+      "basis_index": 2,
+      "correlator": 0.8952,
+      "p_value": 0.0,
+      "anomaly_score": 88.24722950917422
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.09999999999999999,
+      "basis_index": 0,
+      "correlator": 0.3656,
+      "p_value": 0.0,
+      "anomaly_score": 37.581955064154975
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.09999999999999999,
+      "basis_index": 1,
+      "correlator": -0.2986,
+      "p_value": 0.0,
+      "anomaly_score": 30.120101806116157
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.09999999999999999,
+      "basis_index": 2,
+      "correlator": 0.7966,
+      "p_value": 0.0,
+      "anomaly_score": 78.38642167870665
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.15,
+      "basis_index": 0,
+      "correlator": 0.3816,
+      "p_value": 0.0,
+      "anomaly_score": 39.182038302650135
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.15,
+      "basis_index": 1,
+      "correlator": -0.2636,
+      "p_value": 0.0,
+      "anomaly_score": 26.620089976056178
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.15,
+      "basis_index": 2,
+      "correlator": 0.7006,
+      "p_value": 0.0,
+      "anomaly_score": 68.78563515005669
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.19999999999999998,
+      "basis_index": 0,
+      "correlator": 0.3756,
+      "p_value": 0.0,
+      "anomaly_score": 38.58200708821445
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.19999999999999998,
+      "basis_index": 1,
+      "correlator": -0.231,
+      "p_value": 0.0,
+      "anomaly_score": 23.360078957200315
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.19999999999999998,
+      "basis_index": 2,
+      "correlator": 0.6084,
+      "p_value": 0.0,
+      "anomaly_score": 59.56487975483246
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.24999999999999997,
+      "basis_index": 0,
+      "correlator": 0.3878,
+      "p_value": 0.0,
+      "anomaly_score": 39.802070557567006
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.24999999999999997,
+      "basis_index": 1,
+      "correlator": -0.2034,
+      "p_value": 0.0,
+      "anomaly_score": 20.600069628353015
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.24999999999999997,
+      "basis_index": 2,
+      "correlator": 0.4988,
+      "p_value": 0.0,
+      "anomaly_score": 48.60398180129043
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.3,
+      "basis_index": 0,
+      "correlator": 0.3804,
+      "p_value": 0.0,
+      "anomaly_score": 39.062032059763
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.3,
+      "basis_index": 1,
+      "correlator": -0.1626,
+      "p_value": 0.0,
+      "anomaly_score": 16.5200558378831
+    },
+    {
+      "phase": 1.1780972450961724,
+      "damping": 0.3,
+      "basis_index": 2,
+      "correlator": 0.4092,
+      "p_value": 0.0,
+      "anomaly_score": 39.643247707883795
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.0,
+      "basis_index": 0,
+      "correlator": 0.021,
+      "p_value": 0.0,
+      "anomaly_score": 2.640038492041823
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.0,
+      "basis_index": 1,
+      "correlator": 0.0092,
+      "p_value": 0.0,
+      "anomaly_score": 0.3200057601555246
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.0,
+      "basis_index": 2,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 100.88390630047937
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.049999999999999996,
+      "basis_index": 0,
+      "correlator": 0.0018,
+      "p_value": 0.0,
+      "anomaly_score": 0.7200104978295881
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.049999999999999996,
+      "basis_index": 1,
+      "correlator": -0.0228,
+      "p_value": 0.0,
+      "anomaly_score": 2.880051841399722
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.049999999999999996,
+      "basis_index": 2,
+      "correlator": 0.898,
+      "p_value": 0.0,
+      "anomaly_score": 90.68351133353956
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.09999999999999999,
+      "basis_index": 0,
+      "correlator": -0.0094,
+      "p_value": 0.0,
+      "anomaly_score": 0.400005832127549
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.09999999999999999,
+      "basis_index": 1,
+      "correlator": -0.0082,
+      "p_value": 0.0,
+      "anomaly_score": 1.4200255606901409
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.09999999999999999,
+      "basis_index": 2,
+      "correlator": 0.8006,
+      "p_value": 0.0,
+      "anomaly_score": 80.94313417883427
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.15,
+      "basis_index": 0,
+      "correlator": 0.001,
+      "p_value": 0.0,
+      "anomaly_score": 0.6400093314040783
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.15,
+      "basis_index": 1,
+      "correlator": 0.0056,
+      "p_value": 0.0,
+      "anomaly_score": 0.0400007200194406
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.15,
+      "basis_index": 2,
+      "correlator": 0.7226,
+      "p_value": 0.0,
+      "anomaly_score": 73.14283214529206
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.19999999999999998,
+      "basis_index": 0,
+      "correlator": -0.0102,
+      "p_value": 0.0,
+      "anomaly_score": 0.4800069985530588
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.19999999999999998,
+      "basis_index": 1,
+      "correlator": 0.0098,
+      "p_value": 0.0,
+      "anomaly_score": 0.3800068401846855
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.19999999999999998,
+      "basis_index": 2,
+      "correlator": 0.5972,
+      "p_value": 0.0,
+      "anomaly_score": 60.602346568289555
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.24999999999999997,
+      "basis_index": 0,
+      "correlator": 0.014,
+      "p_value": 0.0,
+      "anomaly_score": 1.9400282858186126
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.24999999999999997,
+      "basis_index": 1,
+      "correlator": -0.0038,
+      "p_value": 0.0,
+      "anomaly_score": 0.9800176404762942
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.24999999999999997,
+      "basis_index": 2,
+      "correlator": 0.4966,
+      "p_value": 0.0,
+      "anomaly_score": 50.54195702246459
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.3,
+      "basis_index": 0,
+      "correlator": 0.0042,
+      "p_value": 0.0,
+      "anomaly_score": 0.9600139971061176
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.3,
+      "basis_index": 1,
+      "correlator": 0.011,
+      "p_value": 0.0,
+      "anomaly_score": 0.5000090002430072
+    },
+    {
+      "phase": 1.5707963267948966,
+      "damping": 0.3,
+      "basis_index": 2,
+      "correlator": 0.4028,
+      "p_value": 0.0,
+      "anomaly_score": 41.161593807768945
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.0,
+      "basis_index": 0,
+      "correlator": -0.3776,
+      "p_value": 0.0,
+      "anomaly_score": 38.48099744038065
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.0,
+      "basis_index": 1,
+      "correlator": 0.3812,
+      "p_value": 0.0,
+      "anomaly_score": 36.78330255316148
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.0,
+      "basis_index": 2,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 99.44155925587378
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.049999999999999996,
+      "basis_index": 0,
+      "correlator": -0.3858,
+      "p_value": 0.0,
+      "anomaly_score": 39.301018695607056
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.049999999999999996,
+      "basis_index": 1,
+      "correlator": 0.355,
+      "p_value": 0.0,
+      "anomaly_score": 34.16306729787918
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.049999999999999996,
+      "basis_index": 2,
+      "correlator": 0.9,
+      "p_value": 0.0,
+      "anomaly_score": 89.44140245218576
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.09999999999999999,
+      "basis_index": 0,
+      "correlator": -0.3882,
+      "p_value": 0.0,
+      "anomaly_score": 39.54102491664893
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.09999999999999999,
+      "basis_index": 1,
+      "correlator": 0.3144,
+      "p_value": 0.0,
+      "anomaly_score": 30.102702741983705
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.09999999999999999,
+      "basis_index": 2,
+      "correlator": 0.7918,
+      "p_value": 0.0,
+      "anomaly_score": 78.6212327905953
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.15,
+      "basis_index": 0,
+      "correlator": -0.3798,
+      "p_value": 0.0,
+      "anomaly_score": 38.701003143002374
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.15,
+      "basis_index": 1,
+      "correlator": 0.2756,
+      "p_value": 0.0,
+      "anomaly_score": 26.222354348664872
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.15,
+      "basis_index": 2,
+      "correlator": 0.702,
+      "p_value": 0.0,
+      "anomaly_score": 69.64109198088344
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.19999999999999998,
+      "basis_index": 0,
+      "correlator": -0.3914,
+      "p_value": 0.0,
+      "anomaly_score": 39.861033211371435
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.19999999999999998,
+      "basis_index": 1,
+      "correlator": 0.2316,
+      "p_value": 0.0,
+      "anomaly_score": 21.821959263457956
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.19999999999999998,
+      "basis_index": 2,
+      "correlator": 0.5994,
+      "p_value": 0.0,
+      "anomaly_score": 59.38093110029953
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.24999999999999997,
+      "basis_index": 0,
+      "correlator": -0.3948,
+      "p_value": 0.0,
+      "anomaly_score": 40.20104202451409
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.24999999999999997,
+      "basis_index": 1,
+      "correlator": 0.1872,
+      "p_value": 0.0,
+      "anomaly_score": 17.381560586567335
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.24999999999999997,
+      "basis_index": 2,
+      "correlator": 0.5034,
+      "p_value": 0.0,
+      "anomaly_score": 49.78078056875902
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.3,
+      "basis_index": 0,
+      "correlator": -0.3848,
+      "p_value": 0.0,
+      "anomaly_score": 39.20101610350627
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.3,
+      "basis_index": 1,
+      "correlator": 0.144,
+      "p_value": 0.0,
+      "anomaly_score": 13.061172684727813
+    },
+    {
+      "phase": 1.9634954084936207,
+      "damping": 0.3,
+      "basis_index": 2,
+      "correlator": 0.3942,
+      "p_value": 0.0,
+      "anomaly_score": 38.86060933913169
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.0,
+      "basis_index": 0,
+      "correlator": -0.6958,
+      "p_value": 0.0,
+      "anomaly_score": 70.44260501570112
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.0,
+      "basis_index": 1,
+      "correlator": 0.7176,
+      "p_value": 0.0,
+      "anomaly_score": 72.7837863110484
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.0,
+      "basis_index": 2,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 100.40080320963854
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.049999999999999996,
+      "basis_index": 0,
+      "correlator": -0.7058,
+      "p_value": 0.0,
+      "anomaly_score": 71.44264199775252
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.049999999999999996,
+      "basis_index": 1,
+      "correlator": 0.6424,
+      "p_value": 0.0,
+      "anomaly_score": 65.26339509012116
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.049999999999999996,
+      "basis_index": 2,
+      "correlator": 0.901,
+      "p_value": 0.0,
+      "anomaly_score": 90.50072400868812
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.09999999999999999,
+      "basis_index": 0,
+      "correlator": -0.7074,
+      "p_value": 0.0,
+      "anomaly_score": 71.60264791488075
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.09999999999999999,
+      "basis_index": 1,
+      "correlator": 0.5654,
+      "p_value": 0.0,
+      "anomaly_score": 57.562994504863234
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.09999999999999999,
+      "basis_index": 2,
+      "correlator": 0.7934,
+      "p_value": 0.0,
+      "anomaly_score": 79.74063792765516
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.15,
+      "basis_index": 0,
+      "correlator": -0.7124,
+      "p_value": 0.0,
+      "anomaly_score": 72.10266640590646
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.15,
+      "basis_index": 1,
+      "correlator": 0.501,
+      "p_value": 0.0,
+      "anomaly_score": 51.12265946992023
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.15,
+      "basis_index": 2,
+      "correlator": 0.6982,
+      "p_value": 0.0,
+      "anomaly_score": 70.22056176674123
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.19999999999999998,
+      "basis_index": 0,
+      "correlator": -0.7122,
+      "p_value": 0.0,
+      "anomaly_score": 72.08266566626543
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.19999999999999998,
+      "basis_index": 1,
+      "correlator": 0.419,
+      "p_value": 0.0,
+      "anomaly_score": 42.922232872632556
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.19999999999999998,
+      "basis_index": 2,
+      "correlator": 0.6074,
+      "p_value": 0.0,
+      "anomaly_score": 61.14048912586953
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.24999999999999997,
+      "basis_index": 0,
+      "correlator": -0.7024,
+      "p_value": 0.0,
+      "anomaly_score": 71.10262942385505
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.24999999999999997,
+      "basis_index": 1,
+      "correlator": 0.3488,
+      "p_value": 0.0,
+      "anomaly_score": 35.90186766373506
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.24999999999999997,
+      "basis_index": 2,
+      "correlator": 0.488,
+      "p_value": 0.0,
+      "anomaly_score": 49.20039360472327
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.3,
+      "basis_index": 0,
+      "correlator": -0.7028,
+      "p_value": 0.0,
+      "anomaly_score": 71.1426309031371
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.3,
+      "basis_index": 1,
+      "correlator": 0.2846,
+      "p_value": 0.0,
+      "anomaly_score": 29.481533669273247
+    },
+    {
+      "phase": 2.356194490192345,
+      "damping": 0.3,
+      "basis_index": 2,
+      "correlator": 0.3918,
+      "p_value": 0.0,
+      "anomaly_score": 39.58031664379973
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.0,
+      "basis_index": 0,
+      "correlator": -0.9156,
+      "p_value": 0.0,
+      "anomaly_score": 90.80262241760367
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.0,
+      "basis_index": 1,
+      "correlator": 0.9242,
+      "p_value": 0.0,
+      "anomaly_score": 93.89000733030032
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.0,
+      "basis_index": 2,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 100.42088571611805
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.049999999999999996,
+      "basis_index": 0,
+      "correlator": -0.9268,
+      "p_value": 0.0,
+      "anomaly_score": 91.92265476460494
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.049999999999999996,
+      "basis_index": 1,
+      "correlator": 0.8338,
+      "p_value": 0.0,
+      "anomaly_score": 84.84904369304088
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.049999999999999996,
+      "basis_index": 2,
+      "correlator": 0.898,
+      "p_value": 0.0,
+      "anomaly_score": 90.2207957509278
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.09999999999999999,
+      "basis_index": 0,
+      "correlator": -0.9162,
+      "p_value": 0.0,
+      "anomaly_score": 90.86262415047874
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.09999999999999999,
+      "basis_index": 1,
+      "correlator": 0.7426,
+      "p_value": 0.0,
+      "anomaly_score": 75.7280715280181
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.09999999999999999,
+      "basis_index": 2,
+      "correlator": 0.7988,
+      "p_value": 0.0,
+      "anomaly_score": 80.30070825537022
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.15,
+      "basis_index": 0,
+      "correlator": -0.9214,
+      "p_value": 0.0,
+      "anomaly_score": 91.38263916872934
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.15,
+      "basis_index": 1,
+      "correlator": 0.6352,
+      "p_value": 0.0,
+      "anomaly_score": 64.98692667578733
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.15,
+      "basis_index": 2,
+      "correlator": 0.7144,
+      "p_value": 0.0,
+      "anomaly_score": 71.86063381358537
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.19999999999999998,
+      "basis_index": 0,
+      "correlator": -0.9268,
+      "p_value": 0.0,
+      "anomaly_score": 91.92265476460494
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.19999999999999998,
+      "basis_index": 1,
+      "correlator": 0.5548,
+      "p_value": 0.0,
+      "anomaly_score": 56.94606963556987
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.19999999999999998,
+      "basis_index": 2,
+      "correlator": 0.6074,
+      "p_value": 0.0,
+      "anomaly_score": 61.16053943833679
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.24999999999999997,
+      "basis_index": 0,
+      "correlator": -0.9218,
+      "p_value": 0.0,
+      "anomaly_score": 91.42264032397938
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.24999999999999997,
+      "basis_index": 1,
+      "correlator": 0.457,
+      "p_value": 0.0,
+      "anomaly_score": 47.165027116499395
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.24999999999999997,
+      "basis_index": 2,
+      "correlator": 0.5046,
+      "p_value": 0.0,
+      "anomaly_score": 50.88044876753721
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.3,
+      "basis_index": 0,
+      "correlator": -0.9174,
+      "p_value": 0.0,
+      "anomaly_score": 90.98262761622888
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.3,
+      "basis_index": 1,
+      "correlator": 0.3616,
+      "p_value": 0.0,
+      "anomaly_score": 37.62401018071898
+    },
+    {
+      "phase": 2.748893571891069,
+      "damping": 0.3,
+      "basis_index": 2,
+      "correlator": 0.4092,
+      "p_value": 0.0,
+      "anomaly_score": 41.34036462362398
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.0,
+      "basis_index": 0,
+      "correlator": -1.0,
+      "p_value": 0.0,
+      "anomaly_score": 101.95918848570375
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.0,
+      "basis_index": 1,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 99.20317455237934
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.0,
+      "basis_index": 2,
+      "correlator": 1.0,
+      "p_value": 0.0,
+      "anomaly_score": 100.32051364234478
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.049999999999999996,
+      "basis_index": 0,
+      "correlator": -1.0,
+      "p_value": 0.0,
+      "anomaly_score": 101.95918848570375
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.049999999999999996,
+      "basis_index": 1,
+      "correlator": 0.9036,
+      "p_value": 0.0,
+      "anomaly_score": 89.5628660575715
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.049999999999999996,
+      "basis_index": 2,
+      "correlator": 0.8948,
+      "p_value": 0.0,
+      "anomaly_score": 89.80045977953111
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.09999999999999999,
+      "basis_index": 0,
+      "correlator": -1.0,
+      "p_value": 0.0,
+      "anomaly_score": 101.95918848570375
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.09999999999999999,
+      "basis_index": 1,
+      "correlator": 0.8,
+      "p_value": 0.0,
+      "anomaly_score": 79.2025345216577
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.09999999999999999,
+      "basis_index": 2,
+      "correlator": 0.7938,
+      "p_value": 0.0,
+      "anomaly_score": 79.70040806713395
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.15,
+      "basis_index": 0,
+      "correlator": -1.0,
+      "p_value": 0.0,
+      "anomaly_score": 101.95918848570375
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.15,
+      "basis_index": 1,
+      "correlator": 0.7044,
+      "p_value": 0.0,
+      "anomaly_score": 69.64222858697275
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.15,
+      "basis_index": 2,
+      "correlator": 0.7006,
+      "p_value": 0.0,
+      "anomaly_score": 70.38036034836747
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.19999999999999998,
+      "basis_index": 0,
+      "correlator": -1.0,
+      "p_value": 0.0,
+      "anomaly_score": 101.95918848570375
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.19999999999999998,
+      "basis_index": 1,
+      "correlator": 0.6042,
+      "p_value": 0.0,
+      "anomaly_score": 59.621907931581205
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.19999999999999998,
+      "basis_index": 2,
+      "correlator": 0.5932,
+      "p_value": 0.0,
+      "anomaly_score": 59.64030535914515
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.24999999999999997,
+      "basis_index": 0,
+      "correlator": -1.0,
+      "p_value": 0.0,
+      "anomaly_score": 101.95918848570375
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.24999999999999997,
+      "basis_index": 1,
+      "correlator": 0.5028,
+      "p_value": 0.0,
+      "anomaly_score": 49.48158343600534
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.24999999999999997,
+      "basis_index": 2,
+      "correlator": 0.5028,
+      "p_value": 0.0,
+      "anomaly_score": 50.60025907398969
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.3,
+      "basis_index": 0,
+      "correlator": -1.0,
+      "p_value": 0.0,
+      "anomaly_score": 101.95918848570375
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.3,
+      "basis_index": 1,
+      "correlator": 0.3934,
+      "p_value": 0.0,
+      "anomaly_score": 38.5412333392006
+    },
+    {
+      "phase": 3.141592653589793,
+      "damping": 0.3,
+      "basis_index": 2,
+      "correlator": 0.3882,
+      "p_value": 0.0,
+      "anomaly_score": 39.140200398339054
+    }
+  ]
+}

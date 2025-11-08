@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2025-11-02T23:03:53.448498Z",
+    "experiment_name": "experiment_b_adaptive_mass",
+    "run_id": "5e97a869-3411-4ed4-b0cc-b5cbba2cba10",
+    "lambda_core": 0.0,
+    "lambda_edge": 0.0,
+    "lag_core": 3.19,
+    "lag_edge": 2.5,
+    "overshoot_core": 0.01382592639965241,
+    "overshoot_edge": 10.0,
+    "m_eff_core": 1.0,
+    "m_eff_edge": 1.0,
+    "mean_salience_core": 0.4742189940708327,
+    "mean_salience_edge": 0.0010000000000000005
+  },
+  {
+    "timestamp": "2025-11-02T23:03:53.448510Z",
+    "experiment_name": "experiment_b_adaptive_mass",
+    "run_id": "5e97a869-3411-4ed4-b0cc-b5cbba2cba10",
+    "lambda_core": 2.0,
+    "lambda_edge": 0.1,
+    "lag_core": 3.36,
+    "lag_edge": 2.5,
+    "overshoot_core": 0.01956864177858131,
+    "overshoot_edge": 10.0,
+    "m_eff_core": 1.0532915360501567,
+    "m_eff_edge": 1.0,
+    "mean_salience_core": 0.48198082412007837,
+    "mean_salience_edge": 0.0010000000000000005
+  }
+]

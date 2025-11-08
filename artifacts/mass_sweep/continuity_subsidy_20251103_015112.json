@@ -1,0 +1,54 @@
+[
+  {
+    "timestamp": "2025-11-03T01:51:12.279101Z",
+    "experiment_name": "experiment_g_continuity_subsidy",
+    "run_id": "7815645a-5178-44ba-95b2-6f53e697b9bc",
+    "rise_time_90": 2.25,
+    "peak_overshoot": -0.0325950195129906,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.13200454610620554,
+    "mean_salience": 0.8007702909362504,
+    "control_energy": 4.551397361384122,
+    "mu_c": 0.0,
+    "m_eff": 1.0
+  },
+  {
+    "timestamp": "2025-11-03T01:51:12.279114Z",
+    "experiment_name": "experiment_g_continuity_subsidy",
+    "run_id": "7815645a-5178-44ba-95b2-6f53e697b9bc",
+    "rise_time_90": 2.21,
+    "peak_overshoot": -0.03205084457443197,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.13168062696092317,
+    "mean_salience": 0.42307163331208214,
+    "control_energy": 4.553022250146623,
+    "mu_c": 0.5,
+    "m_eff": 0.9822222222222222
+  },
+  {
+    "timestamp": "2025-11-03T01:51:12.279116Z",
+    "experiment_name": "experiment_g_continuity_subsidy",
+    "run_id": "7815645a-5178-44ba-95b2-6f53e697b9bc",
+    "rise_time_90": 2.25,
+    "peak_overshoot": -0.031810734657944595,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.13163083627268599,
+    "mean_salience": 0.4188335322274445,
+    "control_energy": 4.55316553373688,
+    "mu_c": 1.0,
+    "m_eff": 1.0
+  },
+  {
+    "timestamp": "2025-11-03T01:51:12.279118Z",
+    "experiment_name": "experiment_g_continuity_subsidy",
+    "run_id": "7815645a-5178-44ba-95b2-6f53e697b9bc",
+    "rise_time_90": 2.23,
+    "peak_overshoot": -0.029317756221235558,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.13158592878115247,
+    "mean_salience": 0.4169427684147615,
+    "control_energy": 4.553295701628482,
+    "mu_c": 2.0,
+    "m_eff": 0.991111111111111
+  }
+]

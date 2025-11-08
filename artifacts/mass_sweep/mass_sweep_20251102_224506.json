@@ -1,0 +1,67 @@
+[
+  {
+    "timestamp": "2025-11-02T22:45:06.692188Z",
+    "experiment_name": "experiment_a_mass_sweep",
+    "run_id": "c5d7a0f3-20a7-4b00-aaa2-e9fd7e87d24d",
+    "rise_time_90": 0.01,
+    "peak_overshoot": 0.28633333333333333,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.12019315945380918,
+    "mean_salience": 0.8034814650686402,
+    "control_energy": 4.656423625073658,
+    "lambda_c": 0.0,
+    "m_eff": 1.0
+  },
+  {
+    "timestamp": "2025-11-02T22:45:06.692199Z",
+    "experiment_name": "experiment_a_mass_sweep",
+    "run_id": "c5d7a0f3-20a7-4b00-aaa2-e9fd7e87d24d",
+    "rise_time_90": 0.01,
+    "peak_overshoot": 0.1457333333333335,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.12898645549400917,
+    "mean_salience": 0.7959568956726067,
+    "control_energy": 4.580957311646745,
+    "lambda_c": 0.25,
+    "m_eff": 1.0
+  },
+  {
+    "timestamp": "2025-11-02T22:45:06.692202Z",
+    "experiment_name": "experiment_a_mass_sweep",
+    "run_id": "c5d7a0f3-20a7-4b00-aaa2-e9fd7e87d24d",
+    "rise_time_90": 0.01,
+    "peak_overshoot": 0.05200000000000027,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.13697716115771566,
+    "mean_salience": 0.7897083166588177,
+    "control_energy": 4.5195187301975555,
+    "lambda_c": 0.5,
+    "m_eff": 1.0
+  },
+  {
+    "timestamp": "2025-11-02T22:45:06.692203Z",
+    "experiment_name": "experiment_a_mass_sweep",
+    "run_id": "c5d7a0f3-20a7-4b00-aaa2-e9fd7e87d24d",
+    "rise_time_90": 0.01,
+    "peak_overshoot": -0.0651666666666666,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.15022431559635893,
+    "mean_salience": 0.7803208008239612,
+    "control_energy": 4.425363876782533,
+    "lambda_c": 1.0,
+    "m_eff": 1.0
+  },
+  {
+    "timestamp": "2025-11-02T22:45:06.692205Z",
+    "experiment_name": "experiment_a_mass_sweep",
+    "run_id": "c5d7a0f3-20a7-4b00-aaa2-e9fd7e87d24d",
+    "rise_time_90": NaN,
+    "peak_overshoot": -0.10247872630036126,
+    "settling_time_2pct": NaN,
+    "rms_error": 0.1686306415701514,
+    "mean_salience": 0.7687223998074333,
+    "control_energy": 4.303944509742006,
+    "lambda_c": 2.0,
+    "m_eff": NaN
+  }
+]

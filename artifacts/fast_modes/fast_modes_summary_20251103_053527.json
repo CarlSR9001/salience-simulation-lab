@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-11-03T05:35:27.669727Z",
+  "summaries": [
+    {
+      "experiment": "experiment_i_time_overclock",
+      "artifact": "artifacts\\time_overclock\\time_overclock_20251103_021518.json",
+      "highlight": {
+        "best_alpha_boost": "n/a",
+        "best_converge_steps": Infinity,
+        "best_speedup": 0.0
+      }
+    },
+    {
+      "experiment": "experiment_l_pulsed_overclock",
+      "artifact": "artifacts\\pulsed_overclock\\pulsed_overclock_20251103_030005.json",
+      "highlight": {
+        "best_alpha_boost": "n/a",
+        "best_converge_steps": Infinity,
+        "best_speedup": 0.0
+      }
+    },
+    {
+      "experiment": "experiment_m_soft_release",
+      "artifact": "artifacts\\soft_release\\soft_release_20251103_031245.json",
+      "highlight": {
+        "fastest_rise_time": Infinity,
+        "peak_rate": 0.0,
+        "config": "n/a"
+      }
+    },
+    {
+      "experiment": "experiment_n_reflex_edge",
+      "artifact": "artifacts\\reflex_edge\\reflex_edge_20251103_052932.json",
+      "highlight": {
+        "count_passing": 53,
+        "best_core_rt90": 0.14,
+        "best_mu_edge": 3.0,
+        "best_lambda_core": 0.6,
+        "best_merge_rate": 0.05
+      }
+    }
+  ]
+}
