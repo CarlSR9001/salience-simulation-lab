@@ -125,12 +125,24 @@ Each script writes artefacts into `artifacts/`; refer to `AGENTS.md` for run his
 
 ## License & Citation
 
-Specify your preferred license in `LICENSE`. If you use the code, cite it as:
+### Code License
+
+Specify your preferred license in `LICENSE` (MIT recommended). If you use the code, cite it as:
 
 ```
 Salience Simulation Lab (2025)
-https://github.com/<your-handle>/salience-simulation-lab
+https://github.com/CarlSR9001/salience-simulation-lab
 ```
+
+### SPARC Data Attribution
+
+This repository includes data from the **SPARC database** (Spitzer Photometry & Accurate Rotation Curves) released under **CC-BY-4.0**.
+
+**Please cite:** Lelli, F., McGaugh, S. S., & Schombert, J. M. (2016), "SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves", AJ 152, 157
+
+**SPARC dataset DOI:** 10.5281/zenodo.16284118
+
+Additional original rotation-curve references are listed in SPARC Table 1. See `artifacts_sparc/README.md` and `CITATION.cff` for complete citation details.
 
 ## Questions?
 

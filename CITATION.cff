@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software or SPARC data, please cite as below."
+title: "Salience Simulation Lab"
+abstract: "Computational framework for salience-based galaxy rotation curve modeling using SPARC data."
+type: software
+license: MIT
+repository-code: "https://github.com/CarlSR9001/salience-simulation-lab"
+
+references:
+  - type: dataset
+    title: "SPARC: Spitzer Photometry & Accurate Rotation Curves"
+    authors:
+      - family-names: "Lelli"
+        given-names: "Federico"
+      - family-names: "McGaugh"
+        given-names: "Stacy S."
+      - family-names: "Schombert"
+        given-names: "James M."
+    year: 2016
+    doi: "10.5281/zenodo.16284118"
+    license: "CC-BY-4.0"
+    url: "https://astroweb.case.edu/SPARC/"
+
+  - type: article
+    title: "SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves"
+    authors:
+      - family-names: "Lelli"
+        given-names: "Federico"
+      - family-names: "McGaugh"
+        given-names: "Stacy S."
+      - family-names: "Schombert"
+        given-names: "James M."
+    year: 2016
+    journal: "The Astronomical Journal"
+    volume: 152
+    issue: 157
+    doi: "10.3847/0004-6256/152/6/157"

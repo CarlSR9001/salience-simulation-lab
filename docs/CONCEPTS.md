@@ -1,6 +1,6 @@
-# CSG V4 Concepts: Salience Theory and Mathematics
+# CSG V4 Concepts: Salience Heuristic and Mathematical Details
 
-This document provides a deep dive into the theoretical foundations of Continuity-Strain Gravity (CSG) Version 4, explaining the salience concept, mathematical formulas, and physical interpretations.
+This document provides a deep dive into the mathematical structure of Continuity-Strain Gravity (CSG) Version 4, a speculative rotation curve model, explaining the salience concept, mathematical formulas, and interpretations.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ This document provides a deep dive into the theoretical foundations of Continuit
 
 ## Core Hypothesis
 
-**Salience-based gravity** proposes that gravitational response is not universal but depends on the "salience" of baryonic structure. Salience is a dimensionless measure combining:
+**Salience-based gravity** is a speculative heuristic that explores what would happen if gravitational response in our equations depended on the "salience" of baryonic structure. Salience is a dimensionless measure combining:
 
 - **Continuity**: How ordered vs. chaotic the motion is
 - **Coherence**: What fraction of the system is ordered
@@ -25,19 +25,21 @@ This document provides a deep dive into the theoretical foundations of Continuit
 - **Mass**: How much baryonic matter is present
 - **Morphology**: What type of structure it is
 
-Regions with **high salience** exhibit stronger "inertial" or "gravitational" response, allowing visible matter to produce flat rotation curves without requiring dark matter.
+In this model, regions with **high salience** are assigned stronger "inertial" responses in the equations, which can produce flat synthetic rotation curves when fitted to data. This is a mathematical exploration, not a claim about how gravity actually works.
 
 ### Analogy to MOND
 
-MOND (Modified Newtonian Dynamics) proposes that gravity behaves differently at low accelerations. CSG extends this idea by making the transition acceleration **salience-dependent**:
+MOND (Modified Newtonian Dynamics) proposes that gravity behaves differently at low accelerations. CSG explores a variation on this by making the transition acceleration **salience-dependent** in the fitting formula:
 
 - MOND: Single global a₀ for all systems
 - CSG V4: Effective a_eff = κ_c × (a₀ / Q), where Q varies by location and galaxy type
 
-This allows CSG to naturally explain:
-- Why dwarf galaxies show stronger MOND-like effects (high gas fractions → high salience)
-- Why grand design spirals have predictable rotation curves (high coherence → high salience)
-- Why irregular galaxies are harder to model (low coherence → low salience)
+This mathematical structure produces different fitting behavior for different galaxy types:
+- Dwarf galaxies (high gas fractions → high salience in the model) show stronger MOND-like behavior in fits
+- Grand design spirals (high coherence → high salience) produce smoother synthetic curves
+- Irregular galaxies (low coherence → low salience) are harder to fit
+
+These are curve-fitting observations, not explanations of physical mechanisms.
 
 ---
 
@@ -429,26 +431,28 @@ In the MOND regime, v_pred depends on g_bar^(1/4), producing nearly flat rotatio
 
 ## Physical Interpretation
 
-### Why Does Salience Matter?
+### Why Structure the Model This Way?
 
-CSG V4 proposes that gravitational response is **not universal** but depends on the **informational coherence** of baryonic structure:
+CSG V4 is built on a speculative thought experiment: what if gravitational response in our equations depended on the **informational coherence** of baryonic structure? This is not a claim about reality, but a mathematical exploration:
 
-1. **Coherent systems** (high C, high K):
-   - Velocity vectors "agree" with each other
-   - System behaves as a unified entity
-   - Gravitational response is "efficient"
-   - → Lower Q, lower a_eff, more MOND-like
+1. **Coherent systems** (high C, high K) in the model:
+   - Have velocity vectors that "agree" numerically
+   - Are treated as unified in the equations
+   - Receive "efficient" gravitational response in the fitting formula
+   - → Lower Q, lower a_eff, more MOND-like synthetic curves
 
-2. **Incoherent systems** (low C, low K):
-   - Velocity vectors are random or conflicting
-   - System is fragmented or chaotic
-   - Gravitational response is "diluted"
-   - → Higher Q, higher a_eff, more Newtonian
+2. **Incoherent systems** (low C, low K) in the model:
+   - Have velocity vectors that are random or conflicting numerically
+   - Are treated as fragmented in the equations
+   - Receive "diluted" gravitational response in the fitting formula
+   - → Higher Q, higher a_eff, more Newtonian synthetic curves
 
-This is analogous to how:
+This is a heuristic for generating synthetic rotation curves, not a theory of how gravity works. The analogies below are metaphors for understanding the mathematical structure:
 - A coherent laser beam carries more "effective" energy than incoherent light
 - A synchronized crowd has more "collective strength" than individuals
 - An organized army is more effective than a mob
+
+*Note: These are metaphors for understanding the mathematical structure, not claims about physical mechanisms.*
 
 ### Connection to Continuity and Strain
 
@@ -543,15 +547,15 @@ They should not be penalized for minor irregularities that stem from measurement
 
 ## Summary
 
-CSG V4 is built on the hypothesis that **gravitational response depends on salience**, a composite measure of continuity, coherence, retention, mass, and morphology. The model:
+CSG V4 is a speculative sandbox exploring the idea: **what if our rotation curve model used salience scores to modulate gravitational response?** It's a curve-fitting heuristic combining continuity, coherence, retention, mass, and morphology. The model:
 
 1. Computes salience S' = CORE × HYPE × PENALTY
 2. Transforms to quality factor Q = S'^(1/4), blended with global aura
 3. Uses Q to set effective acceleration scale a_eff = κ_c × (a₀ / Q)
 4. Interpolates between Newtonian and MOND regimes via μ(x) = x/(1+x)
-5. Predicts flat rotation curves matching observations without dark matter
+5. Generates synthetic flat rotation curves when fitted to galaxy data
 
-The framework is **morphology-aware**, **coherence-sensitive**, and **mass-dependent**, allowing it to naturally explain diversity in galaxy dynamics.
+The framework is **morphology-aware**, **coherence-sensitive**, and **mass-dependent**, producing different fitting behavior for different galaxy types. This is a mathematical model for exploration and discussion, not a claim about physical reality or dark matter.
 
 For implementation details, see the source code in `src/csg_v4/`.
 For usage examples, see `docs/examples/` and `README.md`.

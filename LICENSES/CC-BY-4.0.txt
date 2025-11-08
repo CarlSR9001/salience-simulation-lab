@@ -1,0 +1,8 @@
+Creative Commons Attribution 4.0 International Public License
+
+The SPARC dataset used in this repository is licensed under CC-BY-4.0.
+
+Full license text available at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+SPDX-License-Identifier: CC-BY-4.0

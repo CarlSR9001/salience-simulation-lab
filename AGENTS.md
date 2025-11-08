@@ -8,19 +8,20 @@ This living document tracks experiments run inside the salience sandbox. It is n
 3. Catalogue edge cases that look anomalous so they can be scrutinised, not to claim faster-than-light anything.
 4. Map energy/intensity trade-offs for continuity-aware controllers in a controlled sandbox.
 
-## Empirical Validation (2025-11-05)
+## SPARC Data Exploration (2025-11-05)
 - Script: `empirical_validation/rotation_curve_validation.py`
-- Purpose: run the real-data rotation-curve pipeline end-to-end on SPARC galaxies to cross-check the published CSG V4 claims.
+- Purpose: Explore how the CSG V4 synthetic model performs when applied to real SPARC galaxy rotation curves as a fitting exercise (NOT validation).
 - Usage: `python -m empirical_validation.rotation_curve_validation [--top-n N | --galaxy NAME ...]`
 - Outputs: timestamped folders under `artifacts/empirical_validation/` containing JSON summaries plus the plots emitted by `CSGAnalysis`.
 - Notes:
   - Defaults to the first 25 SPARC galaxies; repeat `--galaxy` flags override this selection.
   - Summary JSON reports best-fit κ₍c₎, bootstrap statistics, and aggregated residual metrics for quick inspection.
+  - This is curve-fitting exploration, not empirical validation. The model is a heuristic sandbox, not a physics theory.
 
 ## CVG Lorenz Demo (2025-11-04)
 - Script: `demos/cvg_lorenz/cvg_lorenz_demo.py`
 - Purpose: produce the one-figure "CVG + OGY pulses" story (baseline PID vs. legacy multiplicative vs. modern additive gate) plus the two required ablations.
-- Claim headliner: phase-timed causal pulses cross authority with ≳10³× less energy than untimed brute force.
+- Experimental observation in simulation: phase-timed causal pulses in the Lorenz controller use ≳10³× less energy than untimed control in this toy model.
 - Outputs: `demos/cvg_lorenz/outputs/cvg_lorenz_demo.png` (figure) and timestamped JSON metrics in the same folder.
 - Usage: `python -m demos.cvg_lorenz.cvg_lorenz_demo` from repo root (repro seed baked in).
 - Ablations baked into run:
@@ -41,9 +42,9 @@ This living document tracks experiments run inside the salience sandbox. It is n
 - Time dilation: extra steps needed to reach a target under continuity strain.
 
 ## Interpretation Notes (2025-11-04)
-- The CSG V4 galaxy model maps salience-derived structure into gravitational response by building S' from local continuity, retention, curvature, density, and delta-A terms before converting it to Q_local and Q_final (@src/csg_v4/model.py#32-88, @src/csg_v4/scores.py#17-164).
-- Effective acceleration is scaled as a_eff = kappa_c * (a0 / Q_final), so higher salience (smaller Q_final) raises the interpolating field between Newtonian and deep-MOND-like behaviors, recovering flat rotation curves without invoking dark matter (@src/csg_v4/model.py#90-112).
-- Experimental scripts vary continuity taxes and salience gating to demonstrate how increasing salience inertia emulates gravitational mass, generating mass sweeps, adaptive inertia splits, and time-dilated learning regimes that trace the same continuity-strain principle driving the galaxy fits (@scripts/continuity_mass_sim.py#52-137, @scripts/unified_inertia_time_probe.py#83-162, @scripts/time_dilation_train.py#1-240).
+- The CSG V4 synthetic model computes a salience score S' from local continuity, retention, curvature, density, and delta-A terms, then transforms it to Q_local and Q_final as mathematical constructs (@src/csg_v4/model.py#32-88, @src/csg_v4/scores.py#17-164).
+- The model's effective acceleration is scaled as a_eff = kappa_c * (a0 / Q_final), creating an interpolation between Newtonian and MOND-like regimes that produces flat synthetic rotation curves when fitted to data (@src/csg_v4/model.py#90-112). This is a curve-fitting exercise, not a claim about actual gravitational physics.
+- Experimental scripts vary continuity taxes and salience gating to explore how increasing salience inertia in the model affects synthetic outputs, generating mass sweeps, adaptive inertia splits, and time-dilated learning regimes that follow the same continuity-strain mathematical framework used in the galaxy fits (@scripts/continuity_mass_sim.py#52-137, @scripts/unified_inertia_time_probe.py#83-162, @scripts/time_dilation_train.py#1-240).
 
 ## Experiment A: Continuity-Taxed Controller Mass Sweep
 - Script: scripts/continuity_mass_sim.py
@@ -169,7 +170,7 @@ This living document tracks experiments run inside the salience sandbox. It is n
 ### Experiment P Status Summary (2025-11-04)
 - Conducted multi-seed stress sweeps with heavy noise (σ=0.5) and Lorenz forcing gains up to 0.2. Control energy remained near baseline (~75–78) while effective mass collapsed to <0.2 or surged >10; energy_ratio persisted in a narrow 0.94–1.03 band, confirming decoupling between m_eff and energy expenditure.
 - Noise-only sweeps (Lorenz gain 0.0) sustained the energy–mass mismatch: m_eff rose to 2.8–14 while energy_ratio stayed ≈1.0. Even reduced noise (σ=0.3) produced external energy orders of magnitude larger than control effort and preserved the anomaly.
-- Quantitative diagnostics across artifacts showed mean |m_eff − energy_ratio| ranging 0.54–5.6 and mean (energy_ratio / m_eff) spanning 0.18–17.3. Result: programmable inertia diverges from energy scaling under continuity strain; anomaly confirmed for escalation.
+- Quantitative diagnostics across artifacts showed mean |m_eff − energy_ratio| ranging 0.54–5.6 and mean (energy_ratio / m_eff) spanning 0.18–17.3. Result: Within this toy simulation, programmable inertia diverges from energy scaling under continuity strain; unexpected behavior flagged for further investigation.
 - Added control-authority diagnostics (control_energy vs. external energy through the rise window) in scripts/continuity_mass_sim.py. Under heavy forcing every run failed the authority gate (ratios ≈0.06–0.11), so new m_eff and energy_ratio values are withheld until the loop regains control; this reframes the earlier anomaly as a control-failure artifact under these conditions.
 - Next steps: tighten salience floors or reduce forcing so at least one taxed regime passes the authority gate; rerun to test whether genuine continuity-taxed behavior still breaks energy scaling once the controller is in charge.
 - First zero-noise rerun confirms the gate works: λ_c ∈ {0,5,10} retain authority (ratios → ∞), with m_eff rising to 2.2–3.5 while energy_ratio slips modestly below 1 because the taxed controller expends less energy over the fixed horizon before reaching 90%. Higher λ_c fails to hit the rise threshold within the horizon, so m_eff/energy_ratio remain NaN. Need longer horizons or per-error energy normalization to decide whether any residual anomaly remains when authority holds.
@@ -180,7 +181,7 @@ This living document tracks experiments run inside the salience sandbox. It is n
 - Pulse probes (micro vs. macro rest schedules): 10 micro rest pulses per 6 s breath (0.2 duty) kept the Lorenz gate mostly shut but authority still stalled at 0.18–0.20 @artifacts/mass_sweep/mass_stress_20251104_070733.json#1-84; a long 60 s inhale (horizon 120 s) raised breathing averages but authority plateaued ≈0.31 with chaos reasserting control @artifacts/mass_sweep/mass_stress_20251104_070850.json#1-84. Rest windows alone can’t win back the ring—need coordinated re-entry cues keyed to authority slope or predictive counters.
 - Hot-tag pulses (authority-slope triggers): enabling slope-based pulses never fired a single tag (trigger_count=0) because authority ratios never stayed above the gate long enough; Lorenz forcing stayed mostly disabled (scale_mean ≈0.04–0.08) and chaos still dominated @artifacts/mass_sweep/mass_stress_20251104_072618.json#1-84. Need lower slope thresholds or predictive partner cues, possibly combining with Experiment Q to deliver the scripted comeback.
 - Hot-tag heat + near-tag tracker: expanded logic tracks heat length, near-tag attempts, and control boost during tag windows, but first run still logged zero activations even after 400-step heat, 399 near tags, and gates held shut @artifacts/mass_sweep/mass_stress_20251104_074816.json#1-84. Next: relax authority gate post-heat, introduce explicit partner controller swap, or queue Experiment Q ally to seize the legal tag.
-- Baseline (ban infinite): disabling Lorenz chaos immediately restored authority ≥ 1.0, salience rebounded to 0.70–0.92, and m_eff re-aligned with energy_ratio across λ_c ∈ {0,5,10} @artifacts/mass_sweep/mass_stress_20251104_083145.json#1-64 and @artifacts/mass_sweep/mass_stress_20251104_083153.json#1-64. Confirms the Experiment P anomaly is purely a control failure when chaos is removed.
+- Baseline (ban infinite): disabling Lorenz chaos immediately restored authority ≥ 1.0, salience rebounded to 0.70–0.92, and m_eff re-aligned with energy_ratio across λ_c ∈ {0,5,10} @artifacts/mass_sweep/mass_stress_20251104_083145.json#1-64 and @artifacts/mass_sweep/mass_stress_20251104_083153.json#1-64. Confirms the Experiment P unexpected behavior is an artifact of control failure when chaos forcing is removed.
 - Mirror assist (auto hot tag + subsidy): preloading a partner with assist gain=5 and Lorenz still active forced authority ≥1 but only by injecting massive control/assist energy (m_eff ≈1, energy_ratio ≫1, salience drifting toward floor) while Lorenz gating stayed almost fully engaged @artifacts/mass_sweep/mass_stress_20251104_084250.json#1-84. Needs sustainable assist (e.g., Experiment Q coupling) that breaks the combo without brute-force energy spikes.
 
 ## Experiment Q: Coupled Domain Energy Leak Probe
