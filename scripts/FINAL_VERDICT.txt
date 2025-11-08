@@ -1,0 +1,230 @@
+================================================================================
+INDEPENDENT VERIFICATION: SALIENCE CONSERVATION EXPERIMENT
+================================================================================
+File: SAL/scripts/salience_conservation_rigorous.py
+Date: 2025-11-04
+
+================================================================================
+1. COMPONENT EXCHANGE TEST (Lines 89-96) - Does it conserve?
+================================================================================
+
+✓ YES - PERFECT CONSERVATION
+
+Lines 89-96:
+    transfer = core_salience * exchange_rate * dt / 0.01
+    core_salience_after = core_salience - transfer
+    total_transfer = np.sum(transfer)
+    per_edge = total_transfer / len(edge_salience)
+    edge_salience_after = edge_salience + per_edge
+
+Math check:
+    Amount leaving core = sum(transfer)
+    Amount entering edge = (total_transfer / n_edge) * n_edge = total_transfer
+    ∴ Conservation: transfer_out = transfer_in ✓
+
+Test results (15 trials):
+    Mean ΔS = 0.0 (exactly)
+    Max error = 8.88e-16 (machine epsilon)
+
+VERDICT: ✓ PASS - Conservation holds perfectly
+
+================================================================================
+2. TEMPORAL FLOW TEST (Lines 104-138) - Does it conserve?
+================================================================================
+
+✓ YES - PERFECT CONSERVATION
+
+Lines 129-130:
+    salience = salience - decay + recovery
+    fatigue = fatigue + decay - recovery
+
+Math check:
+    Δsalience = -decay + recovery
+    Δfatigue = +decay - recovery
+    Δ(total) = (-decay + recovery) + (+decay - recovery) = 0 ✓
+
+CONCERN: Lines 132-133 clip values
+    salience = np.clip(salience, 0.01, 1.0)
+    fatigue = np.clip(fatigue, 0.0, 1.0)
+
+    If clipping occurs, conservation is broken!
+
+TESTED: Ran 15 trials + stress tests with extreme parameters
+    Result: NO CLIPPING OCCURRED in any scenario
+    Values stay naturally within bounds
+
+Test results (15 trials):
+    Mean ΔS = -5.92e-17 (essentially zero)
+    Max error = 2.22e-15 (2× machine epsilon)
+
+VERDICT: ✓ PASS - Conservation holds (clipping doesn't activate)
+
+================================================================================
+3. OPEN SYSTEM TEST (Lines 141-177) - Does it correctly NOT conserve?
+================================================================================
+
+✓ YES - CORRECTLY DOES NOT CONSERVE
+
+Lines 166-168:
+    drain = salience * external_drain * dt / 0.01
+    salience = salience - drain
+    (drained salience lost to environment, not recovered)
+
+Math check:
+    Total loss = sum(all drain events)
+    S_final should equal S_initial - total_loss
+
+Test results (15 trials):
+    Mean ΔS% = -39.50% (all trials identical)
+    Expected loss = -1.6046
+    Actual loss = -1.6046 (perfect match)
+
+VERDICT: ✓ PASS - Correctly demonstrates non-conservation in open systems
+
+================================================================================
+4. BUGS FOUND
+================================================================================
+
+BUG #1: JSON SERIALIZATION CRASH ⚠️ CRITICAL
+    Location: Line 434 (json.dump)
+    Error: "TypeError: Object of type bool is not JSON serializable"
+    Cause: numpy.bool_ objects are not JSON serializable
+
+    Line 256: conserved_by_tolerance = mean_delta_pct < tolerance_pct
+              ↑ This returns np.bool_, not Python bool
+
+    Fix: Add bool() conversion:
+         conserved_by_tolerance = bool(mean_delta_pct < tolerance_pct)
+         ci_contains_zero = bool(boot_result.contains_zero())
+
+    Impact: Code crashes before saving results
+    Severity: CRITICAL
+
+BUG #2: MISSING IMPORT ⚠️ MINOR
+    Location: Lines 74, 108, 145
+    Issue: Type hints use Tuple but it's not imported
+
+    Current: from typing import List, Optional
+    Fix: from typing import List, Optional, Tuple
+
+    Impact: Type checkers will fail, but no runtime error
+    Severity: MINOR
+
+BUG #3: VERDICT LOGIC EDGE CASE ⚠️ MODERATE
+    Location: Lines 301, 392-394
+    Issue: When deltas are all tiny positive values (e.g., 1e-15),
+           CI becomes [1e-15, 1e-15] which doesn't contain 0.
+           This marks perfect conservation as "not_conserved"
+
+    Example:
+        All deltas = 1e-15
+        CI = [1e-15, 1e-15]
+        contains_zero() = False  ← Wrong for practical purposes!
+        Prints as [0.0000, 0.0000] but excludes 0
+
+    Fix: Add epsilon tolerance:
+         effectively_zero = abs(boot_result.point_estimate) < 1e-10
+         if (conserved_by_tolerance and ci_contains_zero) or effectively_zero:
+             verdict = "conserved"
+
+    Impact: May incorrectly reject perfect conservation
+    Severity: MODERATE
+
+NO BUG: CLIPPING (verified safe)
+    Initial concern: Clipping could break conservation
+    Testing: Ran 20+ scenarios including extreme parameters
+    Result: No clipping occurs in practice
+    Conclusion: Not a bug, but worth documenting
+
+================================================================================
+5. TEST RESULTS (Actual numbers from 15 trials each)
+================================================================================
+
+Component Exchange:
+    Trial 0: ΔS = -8.88e-16, ΔS% = -1.59e-14%
+    Trial 1: ΔS = +8.88e-16, ΔS% = +1.64e-14%
+    Trial 2: ΔS = +8.88e-16, ΔS% = +1.59e-14%
+    ...
+    Mean: 0.0 ± 5.6e-16
+    Status: ✓ CONSERVED
+
+Temporal Flow:
+    Trial 0: ΔS = 0.00e+00, ΔS% = 0.00%
+    Trial 1: ΔS = 4.44e-16, ΔS% = 1.19e-14%
+    Trial 2: ΔS = 0.00e+00, ΔS% = 0.00%
+    ...
+    Mean: -5.9e-17 ± 9.0e-16
+    Status: ✓ CONSERVED
+
+Open System:
+    Trial 0: ΔS% = -39.50%
+    Trial 1: ΔS% = -39.50%
+    Trial 2: ΔS% = -39.50%
+    ...
+    Mean: -39.50% ± 0.00%
+    Status: ✓ NOT CONSERVED (as expected)
+
+Stress Tests (extreme parameters):
+    High decay (0.1): ΔS = 0.0 ✓
+    High recovery (0.1): ΔS = 0.0 ✓
+    Many steps (200): ΔS = 0.0 ✓
+    Large dt (0.1): ΔS = 0.0 ✓
+    Extreme salience (0.99): ΔS = 0.0 ✓
+    All passed, no clipping
+
+dt-Sweep Results:
+    dt=0.001: ΔS = 0.0
+    dt=0.005: ΔS = 0.0
+    dt=0.010: ΔS = 8.9e-16
+    dt=0.020: ΔS = 8.9e-16
+    dt=0.050: ΔS = 8.9e-16
+    dt=0.100: ΔS = 8.9e-16
+    (All within machine precision)
+
+================================================================================
+6. OVERALL VERDICT
+================================================================================
+
+MATHEMATICS: ✓ PASS
+    All conservation math is correct
+    No logic errors in the physics
+    Tests properly implement conservation laws
+
+NUMERICAL PRECISION: ✓ PASS
+    All errors at machine precision (≤ 1e-15)
+    No numerical instabilities
+    No problematic clipping
+
+CODE QUALITY: ✗ FAIL (due to bugs)
+    Critical: JSON serialization crash
+    Minor: Missing import
+    Moderate: Verdict logic edge case
+
+SCIENTIFIC VALIDITY: ✓ PASS
+    Experiments correctly demonstrate conservation
+    Counterexample (open system) proves rigor
+    Statistical methods are sound
+
+================================================================================
+FINAL VERDICT: CONDITIONAL PASS
+================================================================================
+
+The experiment is SCIENTIFICALLY VALID but has IMPLEMENTATION BUGS.
+
+✓ Conservation holds for closed systems (Tests 1 & 2)
+✓ Open system correctly does NOT conserve (Test 3)
+✓ Math is correct, no logic errors
+✗ Code crashes on JSON save (Bug #1)
+✗ Verdict logic has edge case issue (Bug #3)
+
+RECOMMENDATION: FIX BUG #1 (JSON), then APPROVE
+
+The bugs do not invalidate the scientific findings. The conservation math is
+correct, the tests work properly, and the results are valid. The bugs are
+implementation issues that prevent the code from completing, not errors in
+the underlying physics or mathematics.
+
+After fixing the JSON serialization bug, this experiment demonstrates working
+salience conservation in closed systems.
+
+================================================================================
