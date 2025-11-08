@@ -1,0 +1,158 @@
+{
+  "timestamp": "2025-11-04T10:36:15.383224Z",
+  "main": [
+    {
+      "final_error": -0.8705098879078836,
+      "peak_error": 1.4302011021856493,
+      "control_energy": 66.35242111397928,
+      "external_energy": 71.97590116771875,
+      "final_authority": 0.9218699597711796,
+      "authority_peak": 5.2524420645467025,
+      "authority_steps": 6,
+      "pulse_count": 0,
+      "authority_first_cross": 0.0,
+      "controller_config": {
+        "type": "baseline_pid",
+        "kp": 1.2,
+        "ki": 0.5,
+        "kd": 0.08,
+        "lambda_c": 8.0,
+        "clip": 40.0
+      },
+      "controller": "BaselinePIDController"
+    },
+    {
+      "final_error": -0.9364659088567284,
+      "peak_error": 1.5433930389905117,
+      "control_energy": 99.27785214563812,
+      "external_energy": 71.97590116771875,
+      "final_authority": 1.3793207245061119,
+      "authority_peak": 1.441982014649173,
+      "authority_steps": 791,
+      "pulse_count": 0,
+      "authority_first_cross": 16.650000000000002,
+      "controller_config": {
+        "type": "legacy_salience",
+        "kp": 1.2,
+        "ki": 0.5,
+        "kd": 0.08,
+        "mass_gain": 9.0,
+        "clip": 40.0
+      },
+      "controller": "LegacySalienceController"
+    },
+    {
+      "final_error": -0.9369398624981069,
+      "peak_error": 2.043682897444599,
+      "control_energy": 86.15892338097792,
+      "external_energy": 71.97590116771875,
+      "final_authority": 1.1970523742413424,
+      "authority_peak": 2.354739272494604,
+      "authority_steps": 614,
+      "pulse_count": 4,
+      "pulse_energy": 8.64e-05,
+      "max_gate": 0.7819113690354816,
+      "authority_first_cross": 0.05,
+      "controller_config": {
+        "type": "modern_cvg",
+        "kp": 1.0,
+        "ki": 0.4,
+        "kd": 0.06,
+        "lambda_c": 2.0,
+        "pulse_amplitude": 0.15,
+        "pulse_width": 3,
+        "pulse_cooldown": 20,
+        "gate_floor": 0.08,
+        "weights": {
+          "delta": 0.7,
+          "retention": 0.2,
+          "payoff": 0.1
+        },
+        "betas": {
+          "beta0": -1.2,
+          "beta_c": 0.8,
+          "beta_rho": 2.2,
+          "beta_phi": 0.8
+        },
+        "pulse_energy_cap": 5.0
+      },
+      "controller": "ModernCVGController"
+    }
+  ],
+  "ablations": {
+    "credit_vs_exogenous": {
+      "final_error": -0.9369398624981069,
+      "peak_error": 2.043682897444599,
+      "control_energy": 86.15892338097792,
+      "external_energy": 71.97590116771875,
+      "final_authority": 1.1970523742413424,
+      "authority_peak": 2.354739272494604,
+      "authority_steps": 614,
+      "pulse_count": 4,
+      "pulse_energy": 8.64e-05,
+      "max_gate": 0.7819113690354816,
+      "authority_first_cross": 0.05,
+      "controller_config": {
+        "type": "modern_cvg",
+        "kp": 1.0,
+        "ki": 0.4,
+        "kd": 0.06,
+        "lambda_c": 2.0,
+        "pulse_amplitude": 0.15,
+        "pulse_width": 3,
+        "pulse_cooldown": 20,
+        "gate_floor": 0.08,
+        "weights": {
+          "delta": 0.7,
+          "retention": 0.2,
+          "payoff": 0.1
+        },
+        "betas": {
+          "beta0": -1.2,
+          "beta_c": 0.8,
+          "beta_rho": 2.2,
+          "beta_phi": 0.8
+        },
+        "pulse_energy_cap": 5.0
+      },
+      "controller": "ModernCVGController"
+    },
+    "timing_vs_random": {
+      "final_error": -0.9454635392111503,
+      "peak_error": 2.043682897444599,
+      "control_energy": 86.158485084232,
+      "external_energy": 71.97590116771875,
+      "final_authority": 1.1970462847483478,
+      "authority_peak": 2.354739272494604,
+      "authority_steps": 610,
+      "pulse_count": 4,
+      "pulse_energy": 0.013499999999999996,
+      "max_gate": 0.7913427067783831,
+      "authority_first_cross": 0.05,
+      "controller_config": {
+        "type": "modern_cvg",
+        "kp": 1.0,
+        "ki": 0.4,
+        "kd": 0.06,
+        "lambda_c": 2.0,
+        "pulse_amplitude": 0.15,
+        "pulse_width": 3,
+        "pulse_cooldown": 20,
+        "gate_floor": 0.08,
+        "weights": {
+          "delta": 0.7,
+          "retention": 0.2,
+          "payoff": 0.1
+        },
+        "betas": {
+          "beta0": -1.2,
+          "beta_c": 0.8,
+          "beta_rho": 2.2,
+          "beta_phi": 0.8
+        },
+        "pulse_energy_cap": 5.0
+      },
+      "controller": "ModernCVGController"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "speed_affinity": 0.8,
+  "salience_weights": [0.55, 0.20, 0.25],
+  "salience_floor_z": 0.0,
+  "salience_on_z": 0.6,
+  "salience_off_z": 0.1,
+  "merge_preference": 0.06,
+  "mu_edge_bounds": [0.8, 2.2],
+  "k_ff": 0.14,
+  "pulse_fast": [24, 8],
+  "pulse_craft": [16, 16]
+}

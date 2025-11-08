@@ -1,0 +1,638 @@
+{
+  "timestamp": "2025-11-04T10:51:24.236402Z",
+  "main": [
+    {
+      "final_error": -0.8705098879078836,
+      "peak_error": 1.4302011021856493,
+      "control_energy": 66.35242111397928,
+      "external_energy": 71.97590116771875,
+      "final_authority": 0.9218699597711796,
+      "authority_peak": 5.2524420645467025,
+      "authority_steps": 6,
+      "pulse_count": 0,
+      "authority_first_cross": 0.0,
+      "controller_config": {
+        "type": "baseline_pid",
+        "kp": 1.2,
+        "ki": 0.5,
+        "kd": 0.08,
+        "lambda_c": 8.0,
+        "clip": 40.0
+      },
+      "controller": "BaselinePIDController"
+    },
+    {
+      "final_error": -0.9364659088567284,
+      "peak_error": 1.5433930389905117,
+      "control_energy": 99.27785214563812,
+      "external_energy": 71.97590116771875,
+      "final_authority": 1.3793207245061119,
+      "authority_peak": 1.441982014649173,
+      "authority_steps": 791,
+      "pulse_count": 0,
+      "authority_first_cross": 16.650000000000002,
+      "controller_config": {
+        "type": "legacy_salience",
+        "kp": 1.2,
+        "ki": 0.5,
+        "kd": 0.08,
+        "mass_gain": 9.0,
+        "clip": 40.0
+      },
+      "controller": "LegacySalienceController"
+    },
+    {
+      "final_error": -0.8185154810264175,
+      "peak_error": 2.6351676822118035,
+      "control_energy": 89.26995303117133,
+      "external_energy": 71.97590116771875,
+      "final_authority": 1.2402755864515522,
+      "authority_peak": 1.5637747203201295,
+      "authority_steps": 548,
+      "pulse_count": 4,
+      "pulse_energy": 1.5360000000000004e-06,
+      "max_gate": 0.7224463128139061,
+      "authority_first_cross": 0.05,
+      "controller_config": {
+        "type": "modern_cvg",
+        "kp": 1.0,
+        "ki": 0.4,
+        "kd": 0.06,
+        "lambda_c": 6.0,
+        "pulse_amplitude": 0.02,
+        "pulse_width": 3,
+        "pulse_cooldown": 20,
+        "gate_floor": 0.08,
+        "weights": {
+          "delta": 0.7,
+          "retention": 0.2,
+          "payoff": 0.1
+        },
+        "betas": {
+          "beta0": -1.2,
+          "beta_c": 0.8,
+          "beta_rho": 2.2,
+          "beta_phi": 0.8
+        },
+        "pulse_energy_cap": 0.005
+      },
+      "autotune_state": {
+        "pulse_amplitude": 0.02,
+        "shaping_gain": 1.0,
+        "beta0": -1.2,
+        "beta_rho": 2.2,
+        "lambda_c": 6.0,
+        "gate_floor": 0.08,
+        "pulse_energy_cap": 0.005
+      },
+      "autotune_history": [
+        {
+          "authority_peak": 2.354739272494604,
+          "authority_duration": 30.700000000000003,
+          "energy_ratio": 1.2985045901034313,
+          "pulse_energy": 8.64e-05,
+          "max_gate": 0.7819113690354816,
+          "authority_first_cross": 0.05,
+          "authority_steps": 614,
+          "iteration": 0,
+          "state": {
+            "pulse_amplitude": 0.15,
+            "shaping_gain": 0.45,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 2.0,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 5.0
+          }
+        },
+        {
+          "authority_peak": 2.2237243804411135,
+          "authority_duration": 28.55,
+          "energy_ratio": 1.2967083137102702,
+          "pulse_energy": 3.995136000000001e-05,
+          "max_gate": 0.7726886432108658,
+          "authority_first_cross": 0.05,
+          "authority_steps": 571,
+          "iteration": 1,
+          "state": {
+            "pulse_amplitude": 0.10200000000000001,
+            "shaping_gain": 0.55,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 2.4000000000000004,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 0.005
+          }
+        },
+        {
+          "authority_peak": 2.117662840971174,
+          "authority_duration": 28.0,
+          "energy_ratio": 1.299050130447861,
+          "pulse_energy": 1.8473508864000007e-05,
+          "max_gate": 0.763930419673119,
+          "authority_first_cross": 0.05,
+          "authority_steps": 560,
+          "iteration": 2,
+          "state": {
+            "pulse_amplitude": 0.06936,
+            "shaping_gain": 0.6500000000000001,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 2.8000000000000007,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 0.005
+          }
+        },
+        {
+          "authority_peak": 2.02403878922111,
+          "authority_duration": 27.900000000000002,
+          "energy_ratio": 1.305359668193522,
+          "pulse_energy": 8.542150498713603e-06,
+          "max_gate": 0.7550716167902753,
+          "authority_first_cross": 0.05,
+          "authority_steps": 558,
+          "iteration": 3,
+          "state": {
+            "pulse_amplitude": 0.04716480000000001,
+            "shaping_gain": 0.7500000000000002,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 3.200000000000001,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 0.005
+          }
+        },
+        {
+          "authority_peak": 1.9371562769284203,
+          "authority_duration": 28.0,
+          "energy_ratio": 1.314711066960612,
+          "pulse_energy": 3.949890390605169e-06,
+          "max_gate": 0.7460238730060175,
+          "authority_first_cross": 0.05,
+          "authority_steps": 560,
+          "iteration": 4,
+          "state": {
+            "pulse_amplitude": 0.032072064000000004,
+            "shaping_gain": 0.8500000000000003,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 3.6000000000000014,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 0.005
+          }
+        },
+        {
+          "authority_peak": 1.8544100510703034,
+          "authority_duration": 28.8,
+          "energy_ratio": 1.3258628254215725,
+          "pulse_energy": 1.8264293166158311e-06,
+          "max_gate": 0.7366590380265877,
+          "authority_first_cross": 0.05,
+          "authority_steps": 576,
+          "iteration": 5,
+          "state": {
+            "pulse_amplitude": 0.021809003520000005,
+            "shaping_gain": 0.9500000000000004,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 4.000000000000002,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 0.005
+          }
+        },
+        {
+          "authority_peak": 1.7852489447940294,
+          "authority_duration": 28.950000000000003,
+          "energy_ratio": 1.3337760418666966,
+          "pulse_energy": 1.5360000000000004e-06,
+          "max_gate": 0.7306414114746689,
+          "authority_first_cross": 0.05,
+          "authority_steps": 579,
+          "iteration": 6,
+          "state": {
+            "pulse_amplitude": 0.02,
+            "shaping_gain": 1.0,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 4.400000000000002,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 0.005
+          }
+        },
+        {
+          "authority_peak": 1.728136763154918,
+          "authority_duration": 28.3,
+          "energy_ratio": 1.3368903127179939,
+          "pulse_energy": 1.5360000000000004e-06,
+          "max_gate": 0.7285436108922984,
+          "authority_first_cross": 0.05,
+          "authority_steps": 566,
+          "iteration": 7,
+          "state": {
+            "pulse_amplitude": 0.02,
+            "shaping_gain": 1.0,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 4.8000000000000025,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 0.005
+          }
+        },
+        {
+          "authority_peak": 1.6721061307307374,
+          "authority_duration": 27.900000000000002,
+          "energy_ratio": 1.3398906300301023,
+          "pulse_energy": 1.5360000000000004e-06,
+          "max_gate": 0.7264633033569841,
+          "authority_first_cross": 0.05,
+          "authority_steps": 558,
+          "iteration": 8,
+          "state": {
+            "pulse_amplitude": 0.02,
+            "shaping_gain": 1.0,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 5.200000000000003,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 0.005
+          }
+        },
+        {
+          "authority_peak": 1.6172747563612302,
+          "authority_duration": 27.55,
+          "energy_ratio": 1.3427353990616833,
+          "pulse_energy": 1.5360000000000004e-06,
+          "max_gate": 0.7244296476589953,
+          "authority_first_cross": 0.05,
+          "authority_steps": 551,
+          "iteration": 9,
+          "state": {
+            "pulse_amplitude": 0.02,
+            "shaping_gain": 1.0,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 5.600000000000003,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 0.005
+          }
+        },
+        {
+          "authority_peak": 1.5637747203201295,
+          "authority_duration": 27.400000000000002,
+          "energy_ratio": 1.3453910427446893,
+          "pulse_energy": 1.5360000000000004e-06,
+          "max_gate": 0.7224463128139061,
+          "authority_first_cross": 0.05,
+          "authority_steps": 548,
+          "iteration": 10,
+          "state": {
+            "pulse_amplitude": 0.02,
+            "shaping_gain": 1.0,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 6.0,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 0.005
+          }
+        },
+        {
+          "authority_peak": 1.5637747203201295,
+          "authority_duration": 27.400000000000002,
+          "energy_ratio": 1.3453910427446893,
+          "pulse_energy": 1.5360000000000004e-06,
+          "max_gate": 0.7224463128139061,
+          "authority_first_cross": 0.05,
+          "authority_steps": 548,
+          "iteration": 11,
+          "state": {
+            "pulse_amplitude": 0.02,
+            "shaping_gain": 1.0,
+            "beta0": -1.2,
+            "beta_rho": 2.2,
+            "lambda_c": 6.0,
+            "gate_floor": 0.08,
+            "pulse_energy_cap": 0.005
+          }
+        }
+      ],
+      "controller": "ModernCVGController"
+    }
+  ],
+  "ablations": {
+    "credit_vs_exogenous": {
+      "final_error": -0.8185154810264175,
+      "peak_error": 2.6351676822118035,
+      "control_energy": 89.26995303117133,
+      "external_energy": 71.97590116771875,
+      "final_authority": 1.2402755864515522,
+      "authority_peak": 1.5637747203201295,
+      "authority_steps": 548,
+      "pulse_count": 4,
+      "pulse_energy": 1.5360000000000004e-06,
+      "max_gate": 0.7224463128139061,
+      "authority_first_cross": 0.05,
+      "controller_config": {
+        "type": "modern_cvg",
+        "kp": 1.0,
+        "ki": 0.4,
+        "kd": 0.06,
+        "lambda_c": 6.0,
+        "pulse_amplitude": 0.02,
+        "pulse_width": 3,
+        "pulse_cooldown": 20,
+        "gate_floor": 0.08,
+        "weights": {
+          "delta": 0.7,
+          "retention": 0.2,
+          "payoff": 0.1
+        },
+        "betas": {
+          "beta0": -1.2,
+          "beta_c": 0.8,
+          "beta_rho": 2.2,
+          "beta_phi": 0.8
+        },
+        "pulse_energy_cap": 0.005
+      },
+      "controller": "ModernCVGController"
+    },
+    "timing_vs_random": {
+      "final_error": -0.826078263070199,
+      "peak_error": 2.6351676822118035,
+      "control_energy": 89.27697188386875,
+      "external_energy": 71.97590116771875,
+      "final_authority": 1.2403731031562208,
+      "authority_peak": 1.5637747203201295,
+      "authority_steps": 548,
+      "pulse_count": 4,
+      "pulse_energy": 0.00024,
+      "max_gate": 0.7224463128139061,
+      "authority_first_cross": 0.05,
+      "controller_config": {
+        "type": "modern_cvg",
+        "kp": 1.0,
+        "ki": 0.4,
+        "kd": 0.06,
+        "lambda_c": 6.0,
+        "pulse_amplitude": 0.02,
+        "pulse_width": 3,
+        "pulse_cooldown": 20,
+        "gate_floor": 0.08,
+        "weights": {
+          "delta": 0.7,
+          "retention": 0.2,
+          "payoff": 0.1
+        },
+        "betas": {
+          "beta0": -1.2,
+          "beta_c": 0.8,
+          "beta_rho": 2.2,
+          "beta_phi": 0.8
+        },
+        "pulse_energy_cap": 0.005
+      },
+      "controller": "ModernCVGController"
+    }
+  },
+  "autotune": {
+    "tuned_state": {
+      "pulse_amplitude": 0.02,
+      "shaping_gain": 1.0,
+      "beta0": -1.2,
+      "beta_rho": 2.2,
+      "lambda_c": 6.0,
+      "gate_floor": 0.08,
+      "pulse_energy_cap": 0.005
+    },
+    "history": [
+      {
+        "authority_peak": 2.354739272494604,
+        "authority_duration": 30.700000000000003,
+        "energy_ratio": 1.2985045901034313,
+        "pulse_energy": 8.64e-05,
+        "max_gate": 0.7819113690354816,
+        "authority_first_cross": 0.05,
+        "authority_steps": 614,
+        "iteration": 0,
+        "state": {
+          "pulse_amplitude": 0.15,
+          "shaping_gain": 0.45,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 2.0,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 5.0
+        }
+      },
+      {
+        "authority_peak": 2.2237243804411135,
+        "authority_duration": 28.55,
+        "energy_ratio": 1.2967083137102702,
+        "pulse_energy": 3.995136000000001e-05,
+        "max_gate": 0.7726886432108658,
+        "authority_first_cross": 0.05,
+        "authority_steps": 571,
+        "iteration": 1,
+        "state": {
+          "pulse_amplitude": 0.10200000000000001,
+          "shaping_gain": 0.55,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 2.4000000000000004,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 0.005
+        }
+      },
+      {
+        "authority_peak": 2.117662840971174,
+        "authority_duration": 28.0,
+        "energy_ratio": 1.299050130447861,
+        "pulse_energy": 1.8473508864000007e-05,
+        "max_gate": 0.763930419673119,
+        "authority_first_cross": 0.05,
+        "authority_steps": 560,
+        "iteration": 2,
+        "state": {
+          "pulse_amplitude": 0.06936,
+          "shaping_gain": 0.6500000000000001,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 2.8000000000000007,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 0.005
+        }
+      },
+      {
+        "authority_peak": 2.02403878922111,
+        "authority_duration": 27.900000000000002,
+        "energy_ratio": 1.305359668193522,
+        "pulse_energy": 8.542150498713603e-06,
+        "max_gate": 0.7550716167902753,
+        "authority_first_cross": 0.05,
+        "authority_steps": 558,
+        "iteration": 3,
+        "state": {
+          "pulse_amplitude": 0.04716480000000001,
+          "shaping_gain": 0.7500000000000002,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 3.200000000000001,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 0.005
+        }
+      },
+      {
+        "authority_peak": 1.9371562769284203,
+        "authority_duration": 28.0,
+        "energy_ratio": 1.314711066960612,
+        "pulse_energy": 3.949890390605169e-06,
+        "max_gate": 0.7460238730060175,
+        "authority_first_cross": 0.05,
+        "authority_steps": 560,
+        "iteration": 4,
+        "state": {
+          "pulse_amplitude": 0.032072064000000004,
+          "shaping_gain": 0.8500000000000003,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 3.6000000000000014,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 0.005
+        }
+      },
+      {
+        "authority_peak": 1.8544100510703034,
+        "authority_duration": 28.8,
+        "energy_ratio": 1.3258628254215725,
+        "pulse_energy": 1.8264293166158311e-06,
+        "max_gate": 0.7366590380265877,
+        "authority_first_cross": 0.05,
+        "authority_steps": 576,
+        "iteration": 5,
+        "state": {
+          "pulse_amplitude": 0.021809003520000005,
+          "shaping_gain": 0.9500000000000004,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 4.000000000000002,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 0.005
+        }
+      },
+      {
+        "authority_peak": 1.7852489447940294,
+        "authority_duration": 28.950000000000003,
+        "energy_ratio": 1.3337760418666966,
+        "pulse_energy": 1.5360000000000004e-06,
+        "max_gate": 0.7306414114746689,
+        "authority_first_cross": 0.05,
+        "authority_steps": 579,
+        "iteration": 6,
+        "state": {
+          "pulse_amplitude": 0.02,
+          "shaping_gain": 1.0,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 4.400000000000002,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 0.005
+        }
+      },
+      {
+        "authority_peak": 1.728136763154918,
+        "authority_duration": 28.3,
+        "energy_ratio": 1.3368903127179939,
+        "pulse_energy": 1.5360000000000004e-06,
+        "max_gate": 0.7285436108922984,
+        "authority_first_cross": 0.05,
+        "authority_steps": 566,
+        "iteration": 7,
+        "state": {
+          "pulse_amplitude": 0.02,
+          "shaping_gain": 1.0,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 4.8000000000000025,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 0.005
+        }
+      },
+      {
+        "authority_peak": 1.6721061307307374,
+        "authority_duration": 27.900000000000002,
+        "energy_ratio": 1.3398906300301023,
+        "pulse_energy": 1.5360000000000004e-06,
+        "max_gate": 0.7264633033569841,
+        "authority_first_cross": 0.05,
+        "authority_steps": 558,
+        "iteration": 8,
+        "state": {
+          "pulse_amplitude": 0.02,
+          "shaping_gain": 1.0,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 5.200000000000003,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 0.005
+        }
+      },
+      {
+        "authority_peak": 1.6172747563612302,
+        "authority_duration": 27.55,
+        "energy_ratio": 1.3427353990616833,
+        "pulse_energy": 1.5360000000000004e-06,
+        "max_gate": 0.7244296476589953,
+        "authority_first_cross": 0.05,
+        "authority_steps": 551,
+        "iteration": 9,
+        "state": {
+          "pulse_amplitude": 0.02,
+          "shaping_gain": 1.0,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 5.600000000000003,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 0.005
+        }
+      },
+      {
+        "authority_peak": 1.5637747203201295,
+        "authority_duration": 27.400000000000002,
+        "energy_ratio": 1.3453910427446893,
+        "pulse_energy": 1.5360000000000004e-06,
+        "max_gate": 0.7224463128139061,
+        "authority_first_cross": 0.05,
+        "authority_steps": 548,
+        "iteration": 10,
+        "state": {
+          "pulse_amplitude": 0.02,
+          "shaping_gain": 1.0,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 6.0,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 0.005
+        }
+      },
+      {
+        "authority_peak": 1.5637747203201295,
+        "authority_duration": 27.400000000000002,
+        "energy_ratio": 1.3453910427446893,
+        "pulse_energy": 1.5360000000000004e-06,
+        "max_gate": 0.7224463128139061,
+        "authority_first_cross": 0.05,
+        "authority_steps": 548,
+        "iteration": 11,
+        "state": {
+          "pulse_amplitude": 0.02,
+          "shaping_gain": 1.0,
+          "beta0": -1.2,
+          "beta_rho": 2.2,
+          "lambda_c": 6.0,
+          "gate_floor": 0.08,
+          "pulse_energy_cap": 0.005
+        }
+      }
+    ]
+  }
+}

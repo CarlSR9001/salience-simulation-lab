@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-11-04T10:09:30.003545Z",
+  "main": [
+    {
+      "final_error": 7.120504414370773,
+      "peak_error": 8.666950212318195,
+      "control_energy": 360000.0,
+      "external_energy": 105.53867542507083,
+      "final_authority": 3411.071804246669,
+      "controller": "BaselinePIDController"
+    },
+    {
+      "final_error": 0.002402700427752591,
+      "peak_error": 4.270109878522281,
+      "control_energy": 891.978467250367,
+      "external_energy": 105.53867542507083,
+      "final_authority": 8.451673887869132,
+      "controller": "LegacySalienceController"
+    },
+    {
+      "final_error": 0.271535392790202,
+      "peak_error": 1.5163823394903664,
+      "control_energy": 54.31728554733707,
+      "external_energy": 105.53867542507083,
+      "final_authority": 0.5146671144826017,
+      "controller": "ModernCVGController"
+    }
+  ],
+  "ablations": {
+    "credit_vs_exogenous": {
+      "final_error": 0.271535392790202,
+      "peak_error": 1.5163823394903664,
+      "control_energy": 54.31728554733707,
+      "external_energy": 105.53867542507083,
+      "final_authority": 0.5146671144826017,
+      "controller": "ModernCVGController"
+    },
+    "timing_vs_random": {
+      "final_error": 0.2711178511286002,
+      "peak_error": 1.516887071717938,
+      "control_energy": 54.31186995916859,
+      "external_energy": 105.53867542507083,
+      "final_authority": 0.5146158007045325,
+      "controller": "ModernCVGController"
+    }
+  }
+}

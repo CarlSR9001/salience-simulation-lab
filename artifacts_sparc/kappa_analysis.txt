@@ -1,0 +1,7 @@
+Primary scan best kappa_c: 0.086457 (chi^2=8.456638e-02)
+Quadratic refinement: kappa_c=0.086594, chi^2=8.456625e-02, sigma~0.2648
+Golden-section: kappa_c=0.086587, chi^2=8.456626e-02, iters=10, bracket=(0.08658333010795213, 0.08659145665936488)
+Zoom scan best kappa_c: 0.086608 (chi^2=8.456627e-02)
+Bootstrap mean: 0.086882, std: 0.007372
+Radius-weighted best kappa_c: 0.122939
+Rotation curves plotted for: F568-1, F571-8, IC4202, F563-1, F583-1, D631-7, F574-1, F568-3, DDO161, NGC2403-like...
